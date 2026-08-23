@@ -93,14 +93,20 @@ async function grade(text, env) {
   const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
     method:"POST",
     headers:{"authorization":`Bearer ${apiKey}`, "content-type":"application/json", "http-referer":"https://jay.buildinpublicuniversity.com", "x-title":"Jay Yang × Build in Public University — 6Ps Copy Eval"},
-    body: JSON.stringify({model: env.OPENROUTER_MODEL || MODEL, temperature:0.2, max_tokens:1400, messages:[
+    body: JSON.stringify({model: env.OPENROUTER_MODEL || MODEL, temperature:0.2, max_tokens:4000, reasoning:{effort:"low"}, messages:[
       {role:"system", content:SYSTEM},
-      {role:"user", content:`Grade this writing using the 6Ps. The release gate is: every P >= 1, People/Promise/Proof = 2, total >= 9/12. Return exactly three recommendations, prioritised by expected improvement.\n\nWRITING:\n${text}`}
-    ], response_format:{type:"json_schema", json_schema:{name:"six_ps_copy_eval", strict:true, schema}}})
+      {role:"user", content:`Grade this writing using the 6Ps. The release gate is: every P >= 1, People/Promise/Proof = 2, total >= 9/12. Return exactly three recommendations, prioritised by expected improvement.
+
+Return a JSON object with exactly these top-level fields: overall_score (integer 0-12), decision (PASS, REVISE, or STOP), scores (object with integer fields people, positioning, promise, proof, priority, process, each 0-2), recommendations (array of exactly three objects with dimension, problem, and fix), and summary (string). Do not use flat score fields.
+
+WRITING:
+${text}`}
+    ], response_format:{type:"json_object"}})
   });
   if (!response.ok) return {error:"provider_error", status:response.status, message:"The grader could not complete this run. Try again in a moment."};
   const payload = await response.json();
-  const rawContent = payload?.choices?.[0]?.message?.content;
+  const message = payload?.choices?.[0]?.message || {};
+  const rawContent = message.content ?? message.reasoning ?? message.reasoning_details;
   if (!rawContent) return {error:"empty_provider_response", message:"The grader returned no usable result."};
   const raw = typeof rawContent === "string"
     ? rawContent
@@ -112,10 +118,20 @@ async function grade(text, env) {
     const cleaned = raw.replace(/^```(?:json)?\s*/i, "").replace(/\s*```$/i, "").trim();
     try { parsed = JSON.parse(cleaned); }
     catch {
-      const start = cleaned.indexOf("{");
       const end = cleaned.lastIndexOf("}");
-      if (start < 0 || end <= start) throw new Error("no JSON object");
-      parsed = JSON.parse(cleaned.slice(start, end + 1));
+      if (end < 0) throw new Error("no JSON object");
+      let parsedCandidate = null;
+      for (let i = cleaned.lastIndexOf("{", end); i >= 0; i = cleaned.lastIndexOf("{", i - 1)) {
+        try {
+          const candidate = JSON.parse(cleaned.slice(i, end + 1));
+          if (candidate && typeof candidate === "object" && candidate.scores && Array.isArray(candidate.recommendations)) {
+            parsedCandidate = candidate;
+            break;
+          }
+        } catch {}
+      }
+      if (!parsedCandidate) throw new Error("no JSON object");
+      parsed = parsedCandidate;
     }
   } catch { return {error:"invalid_provider_json", message:"The grader returned an invalid result. Try again."}; }
   if (!parsed || typeof parsed !== "object" || !parsed.scores || !Array.isArray(parsed.recommendations) || parsed.recommendations.length < 3) {

@@ -70,6 +70,25 @@ Report: `history_tournament_report.json`. These are model-judge priors, not
 market outcomes. The next falsifier is to turn the champion into a full piece,
 run it through the live 6Ps grader, then measure actual attention and action.
 
+## Champion draft readback — Edge-Case Bill
+
+The history-round champion was expanded into
+`tournament/champion_edge_case_bill.md` and sent through the live production
+grader after deployment `95cc1ac3-12fd-4a1f-a4d4-e3b9e644de8e`.
+
+Observed result:
+
+```text
+7/12 — REVISE
+People 2 | Positioning 1 | Promise 2 | Proof 0 | Priority 0 | Process 2
+```
+
+The grader's diagnosis was specific: the piece names the operational pain and
+process, but contains no pointable receipt and no real urgency. That is a copy
+failure, not market evidence. The next falsifier requires a publication surface,
+a defined CTA, and measured attention/action; this repository does not claim
+those outcomes yet.
+
 ## Feeding winners back into the grader
 
 Champion ideas are pre-validated pain-first hooks. Two integration paths:
