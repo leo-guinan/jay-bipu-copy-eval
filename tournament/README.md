@@ -100,6 +100,34 @@ Champion ideas are pre-validated pain-first hooks. Two integration paths:
    which archetype each idea persuades (or fails), so losing ideas can be
    diagnosed by *which judge* rejected them, not just that they lost.
 
+## Improvement phase — improve until pass, then battle
+
+`evolving_tournament.py` adds the next layer:
+
+```bash
+python3 evolving_tournament.py pods.json --out evolving_report.json --dry-run
+python3 evolving_tournament.py pods.json --out evolving_report.json --max-attempts 5
+```
+
+For every idea, the runner:
+
+1. expands the hook into a complete piece;
+2. sends it through the production 6Ps grader;
+3. uses the grader's weakest dimensions and recommendations to revise it;
+4. repeats up to `--max-attempts` cycles;
+5. admits only actual `PASS` results into the versus battle;
+6. preserves unresolved candidates and every intermediate draft/grade in the report.
+
+The admission gate is the production gate: all dimensions at least 1,
+People/Promise/Proof exactly 2, and total at least 9/12. A bounded maximum is
+intentional: an infinite improvement loop would turn provider optimism into a
+false result. Unresolved candidates are evidence of a remaining problem, not
+losses hidden from the ledger.
+
+The battle uses the existing five attentiveness/problem-shape judges and pairs
+only eligible passers. Results remain model-judge priors until a published CTA
+produces observed attention or action.
+
 ## Cost note
 
 Each matchup = 5 judge calls ≈ $0.0005–0.001 total per matchup at current
