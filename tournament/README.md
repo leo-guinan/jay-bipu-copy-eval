@@ -52,6 +52,24 @@ Points: Time Poverty 4, Plateau 3, Urgency 2, Invisible 1, Trust 0.
 Integrity: 5 pods, 10 pod matches, 10 final matchups, all 50 judge verdicts
 returned complete scored JSON. Report at `tournament_report.json`.
 
+## Verified results — history round (2026-08-23)
+
+This round mined recent project themes from agent history without publishing
+raw private transcripts or credentials. It used 6 pain pods, 24 ideas, 18 pod
+matchups, and 15 cross-pod matchups. All 165 judge verdicts were complete.
+
+Grand champion: **pod_edge_case_debt** (5 final points)
+
+> "The bug is rarely the dramatic outage. It is the silent mismatch between the
+> account, the domain, the webhook, and the thing you thought you configured."
+
+Final points: Edge-Case Bill 5, Incomplete-Information Trap 4, Receipt Debt 3,
+Attribution Blindness 2, Bounded Autonomy 1, Complexity Tax 0.
+
+Report: `history_tournament_report.json`. These are model-judge priors, not
+market outcomes. The next falsifier is to turn the champion into a full piece,
+run it through the live 6Ps grader, then measure actual attention and action.
+
 ## Feeding winners back into the grader
 
 Champion ideas are pre-validated pain-first hooks. Two integration paths:

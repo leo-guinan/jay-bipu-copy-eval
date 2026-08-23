@@ -1,0 +1,3594 @@
+{
+  "meta": {
+    "name": "Jay BIPU Content Idea Tournament \u2014 History Round",
+    "version": 2,
+    "framework": "6Ps of CopyTHINKING \u2014 Jay Yang (@Jayyanginspires)",
+    "pain_first_rule": "An idea can only win by demonstrating the reader's pain more precisely than its opponent. Solution quality scores nothing until pain recognition scores.",
+    "provenance": "Ideas synthesized from recent project themes in agent history and the Jay Yang copywriting essay. Raw private transcripts, credentials, and identifiers are not included.",
+    "round_label": "history_mined_2026-08-23"
+  },
+  "format": {
+    "style": "single_elimination_per_pod_then_cross_pod_final",
+    "round1": "Within each pod, ideas face off pairwise; winners advance.",
+    "final": "Pod champions meet in cross-pod round-robin judged by all archetypes.",
+    "scoring": "Each judge returns pain_recognition (0-5), specificity (0-5), action_pull (0-3). Pain recognition is weighted double and gates: if tied or losing on pain recognition, an idea cannot win regardless of other axes.",
+    "tiebreak": "Higher pain_recognition, then higher specificity, then earlier seed order."
+  },
+  "pods": {
+    "pod_receipt_debt": {
+      "name": "Receipt Debt",
+      "rounds": [
+        {
+          "round": 1,
+          "matches": [
+            {
+              "a_seed": 0,
+              "b_seed": 1,
+              "scores": {
+                "a": {
+                  "pain": 18,
+                  "spec": 15,
+                  "pull": 9
+                },
+                "b": {
+                  "pain": 21,
+                  "spec": 23,
+                  "pull": 14
+                }
+              },
+              "judges": [
+                {
+                  "archetype": "skim",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "Both ideas nail the reader's pain, but B's receipt metaphor is more immediately actionable and memorable, giving it a higher total score."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "busy_operator",
+                  "verdict": {
+                    "a": {
+                      "pain": 3,
+                      "spec": 2,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "B names the owner's Tuesday pain of vanity metrics versus actual revenue more sharply, with a concrete image that demands action."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "skeptical_buyer",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "B's concrete imagery of the green status page and receipt makes its pain point more vivid and actionable, earning higher specificity and pull."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "pattern_hunter",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "Idea B more concretely names the deceptive artifact (green status page) and offers a specific honest alternative (the receipt), making the pain more tangible and actionable."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "tired_scroller",
+                  "verdict": {
+                    "a": {
+                      "pain": 2,
+                      "spec": 2,
+                      "pull": 1
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "winner": "B",
+                    "why": "B nails the pain of false confidence from green status pages, instantly clear to a tired reader."
+                  },
+                  "winner": "B"
+                }
+              ],
+              "winner_seed": 1
+            },
+            {
+              "a_seed": 2,
+              "b_seed": 3,
+              "scores": {
+                "a": {
+                  "pain": 16,
+                  "spec": 13,
+                  "pull": 10
+                },
+                "b": {
+                  "pain": 21,
+                  "spec": 23,
+                  "pull": 14
+                }
+              },
+              "judges": [
+                {
+                  "archetype": "skim",
+                  "verdict": {
+                    "a": {
+                      "pain": 3,
+                      "spec": 2,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "winner": "B",
+                    "why": "B names a concrete, felt betrayal (the README-truth gap) with higher pain specificity than A's abstract fear of exposure."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "busy_operator",
+                  "verdict": {
+                    "a": {
+                      "pain": 3,
+                      "spec": 2,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "Idea B directly names the concrete pain of trust erosion from unmet promises, which resonates with a busy owner's experience of being let down by overpromised products."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "skeptical_buyer",
+                  "verdict": {
+                    "a": {
+                      "pain": 3,
+                      "spec": 2,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "Idea B directly addresses the critical pain of trust erosion from misaligned promises and reality, with concrete, pointable specifics, while Idea A's pain is more abstract and less immediately relatable."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "pattern_hunter",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "Idea B pinpoints the specific, visceral pain of a broken promise between README and reality, where trust actually fails, making it more immediately relatable than the meta-worry of polish versus proof."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "tired_scroller",
+                  "verdict": {
+                    "a": {
+                      "pain": 3,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "B names the concrete, painful gap between promise and reality that any tired developer has felt, while A's abstract fear of exposing failure is less immediately recognizable."
+                  },
+                  "winner": "B"
+                }
+              ],
+              "winner_seed": 3
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "matches": [
+            {
+              "a_seed": 1,
+              "b_seed": 3,
+              "scores": {
+                "a": {
+                  "pain": 19,
+                  "spec": 18,
+                  "pull": 11
+                },
+                "b": {
+                  "pain": 22,
+                  "spec": 22,
+                  "pull": 14
+                }
+              },
+              "judges": [
+                {
+                  "archetype": "skim",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "Both ideas nail a specific pain, but B's higher action pull and slightly more urgent framing edge it out."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "busy_operator",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "Idea A directly names the operational pain of false confidence from a green status page, which is more urgent and relatable for a busy owner than documentation gaps."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "skeptical_buyer",
+                  "verdict": {
+                    "a": {
+                      "pain": 3,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "Idea B directly names a concrete, painful gap between documentation and reality, while Idea A's metaphor is less immediately relatable."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "pattern_hunter",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "Idea B more concretely names the gap between promise and reality, with higher specificity and action pull."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "tired_scroller",
+                  "verdict": {
+                    "a": {
+                      "pain": 3,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "B directly names the precise pain of trust lost when a README's promise fails in practice, which is more immediate and relatable than A's abstract critique of status pages."
+                  },
+                  "winner": "B"
+                }
+              ],
+              "winner_seed": 3
+            }
+          ]
+        }
+      ],
+      "champion": {
+        "seed": 3,
+        "text": "The gap between what your README promises and what a stranger can run is where trust goes to die."
+      }
+    },
+    "pod_complexity_tax": {
+      "name": "The Complexity Tax",
+      "rounds": [
+        {
+          "round": 1,
+          "matches": [
+            {
+              "a_seed": 0,
+              "b_seed": 1,
+              "scores": {
+                "a": {
+                  "pain": 20,
+                  "spec": 19,
+                  "pull": 11
+                },
+                "b": {
+                  "pain": 21,
+                  "spec": 21,
+                  "pull": 13
+                }
+              },
+              "judges": [
+                {
+                  "archetype": "skim",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 3,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "A hooks by directly naming the reader's personal pain of mislabeling burnout as technical jargon."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "busy_operator",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "Idea B nails the specific, costly pain of a hidden error cascade that rationalizes itself away, while Idea A is clever but lands on abstraction more than the operator's Tuesday-afternoon fear of undetected failure."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "skeptical_buyer",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "winner": "B",
+                    "why": "Both ideas nail the pain of hidden systemic exhaustion, but B's specification of exactly how a single missing state corrupts later decisions is more pointable and memorable, giving it the edge on specificity."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "pattern_hunter",
+                  "verdict": {
+                    "a": {
+                      "pain": 3,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "Idea B more directly captures the reader's pain of hidden errors in complex systems with a vivid, specific image that compels action."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "tired_scroller",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "B names the specific, visceral pain of a hidden state sabotaging rational decisions, while A buries its insight in a clever but less relatable abstraction."
+                  },
+                  "winner": "B"
+                }
+              ],
+              "winner_seed": 1
+            },
+            {
+              "a_seed": 2,
+              "b_seed": 3,
+              "scores": {
+                "a": {
+                  "pain": 14,
+                  "spec": 16,
+                  "pull": 8
+                },
+                "b": {
+                  "pain": 21,
+                  "spec": 20,
+                  "pull": 12
+                }
+              },
+              "judges": [
+                {
+                  "archetype": "skim",
+                  "verdict": {
+                    "a": {
+                      "pain": 2,
+                      "spec": 3,
+                      "pull": 1
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "winner": "B",
+                    "why": "Idea B directly names the felt cost of unprocessed information in the body, while Idea A remains abstract and intellectual."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "busy_operator",
+                  "verdict": {
+                    "a": {
+                      "pain": 3,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "Idea B directly names the owner's felt pain of information overload and the hidden cost of not knowing what to forget, while Idea A remains abstract about measurement."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "skeptical_buyer",
+                  "verdict": {
+                    "a": {
+                      "pain": 3,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "winner": "B",
+                    "why": "Idea B hits closer to the reader's visceral experience of cognitive fatigue and the inability to let go of information, while Idea A is more abstract and conceptual."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "pattern_hunter",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "B names the exact, unpointable pain of carrying uncompressed information in the body, while A stays abstractly intellectual about measurement."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "tired_scroller",
+                  "verdict": {
+                    "a": {
+                      "pain": 2,
+                      "spec": 3,
+                      "pull": 1
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "winner": "B",
+                    "why": "B names the visceral pain of cognitive overload and unreleased tension, while A is abstract and intellectual, failing to land as a felt problem."
+                  },
+                  "winner": "B"
+                }
+              ],
+              "winner_seed": 3
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "matches": [
+            {
+              "a_seed": 1,
+              "b_seed": 3,
+              "scores": {
+                "a": {
+                  "pain": 22,
+                  "spec": 22,
+                  "pull": 14
+                },
+                "b": {
+                  "pain": 17,
+                  "spec": 20,
+                  "pull": 11
+                }
+              },
+              "judges": [
+                {
+                  "archetype": "skim",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 3,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "Idea A lands a sharper felt pain\u2014the frustration of rational decisions that are secretly wrong due to a single missing state\u2014while Idea B's body-payment metaphor is more diffuse and less immediately pointable."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "busy_operator",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 3,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "A directly names the painful decision-making trap of missing a state in complex systems, which resonates deeply with an owner skimming between meetings."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "skeptical_buyer",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "A",
+                    "why": "Idea A directly names the hidden cost of missing states in complex systems, a specific pain that leads to rational but wrong decisions, while Idea B's pain of uncompressed information is less acute and more metaphorical."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "pattern_hunter",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 3,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "A directly names a painful hidden trap in complex systems (missing state causing rational but wrong decisions), while B's bodily information compression pain is less concrete and urgent."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "tired_scroller",
+                  "verdict": {
+                    "a": {
+                      "pain": 3,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "winner": "B",
+                    "why": "Idea B directly names the felt pain of mental overload and the inability to let go, which resonates with a tired reader."
+                  },
+                  "winner": "B"
+                }
+              ],
+              "winner_seed": 1
+            }
+          ]
+        }
+      ],
+      "champion": {
+        "seed": 1,
+        "text": "The hidden cost of a complex system is not that it has more parts; it is that one missing state can make every later decision look rational and still be wrong."
+      }
+    },
+    "pod_bounded_autonomy": {
+      "name": "The Autonomy Mirage",
+      "rounds": [
+        {
+          "round": 1,
+          "matches": [
+            {
+              "a_seed": 0,
+              "b_seed": 1,
+              "scores": {
+                "a": {
+                  "pain": 16,
+                  "spec": 16,
+                  "pull": 11
+                },
+                "b": {
+                  "pain": 21,
+                  "spec": 24,
+                  "pull": 15
+                }
+              },
+              "judges": [
+                {
+                  "archetype": "skim",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "Idea B uses more concrete language ('touched' and 'refused') to directly address the reader's need for transparency and auditability, making it more memorable and actionable."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "busy_operator",
+                  "verdict": {
+                    "a": {
+                      "pain": 3,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "Idea B directly names the operator's pain of not knowing what their system actually did or didn't do, with concrete, pointable language about touching and refusing."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "skeptical_buyer",
+                  "verdict": {
+                    "a": {
+                      "pain": 2,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "B names the concrete pain of opaque automation and the need for auditable refusal, while A's abstract philosophical framing fails to prove it grasps a felt operational problem."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "pattern_hunter",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "B wins on specificity by naming the concrete, pointable action of 'touched and refused,' while both equally recognize the pain of false autonomy."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "tired_scroller",
+                  "verdict": {
+                    "a": {
+                      "pain": 3,
+                      "spec": 2,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "Idea B directly addresses the reader's pain of lacking transparency and control over agent actions, with concrete language that makes the solution immediately understandable."
+                  },
+                  "winner": "B"
+                }
+              ],
+              "winner_seed": 1
+            },
+            {
+              "a_seed": 2,
+              "b_seed": 3,
+              "scores": {
+                "a": {
+                  "pain": 22,
+                  "spec": 24,
+                  "pull": 13
+                },
+                "b": {
+                  "pain": 20,
+                  "spec": 17,
+                  "pull": 10
+                }
+              },
+              "judges": [
+                {
+                  "archetype": "skim",
+                  "verdict": {
+                    "a": {
+                      "pain": 3,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "winner": "B",
+                    "why": "B names the felt pain of opaque agent behavior more sharply \u2014 the reader knows the ache of untraceable decisions \u2014 while A's pain is real but more abstract."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "busy_operator",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "Idea A directly names the painful gap between demo perfection and real-world failure with a concrete, inspectable solution, while Idea B is more abstract."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "skeptical_buyer",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "Idea A directly addresses the skeptical buyer's core need for inspectable evidence of agent behavior, with a concrete, pointable 'receipt' that proves understanding of the pain of trusting black-box systems."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "pattern_hunter",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "Idea A flips the common demo narrative to prioritize inspectable boundaries, directly addressing the developer's pain of unreliable agent behavior."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "tired_scroller",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "Idea A directly addresses the pain of misleading demos with a concrete, memorable image, while Idea B requires more effort to grasp the pain."
+                  },
+                  "winner": "A"
+                }
+              ],
+              "winner_seed": 2
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "matches": [
+            {
+              "a_seed": 1,
+              "b_seed": 2,
+              "scores": {
+                "a": {
+                  "pain": 24,
+                  "spec": 24,
+                  "pull": 14
+                },
+                "b": {
+                  "pain": 22,
+                  "spec": 23,
+                  "pull": 13
+                }
+              },
+              "judges": [
+                {
+                  "archetype": "skim",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "Idea A directly names the reader's pain of opaque agents and offers a concrete alternative, while Idea B focuses on demo expectations rather than the agent's core behavior."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "busy_operator",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "B nails the operator's pain of trusting an agent's output by naming the exact concrete artifact\u2014a stoppable, inspectable receipt\u2014that proves the agent didn't overstep, while A stays abstract about 'touching' and 'refusing'."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "skeptical_buyer",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 5,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "Both ideas nail the pain of opaque agents, but A's concrete 'touched and refused' language is more specific and actionable, giving it a higher total score."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "pattern_hunter",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "A",
+                    "why": "Idea A directly addresses the reader's deeper pain of agent opacity and false promises, while Idea B focuses on a narrower demo-related pain."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "tired_scroller",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "A",
+                    "why": "A directly names the pain of overpromising agents and offers a clear, specific alternative, while B focuses on the demo rather than the agent itself."
+                  },
+                  "winner": "A"
+                }
+              ],
+              "winner_seed": 1
+            }
+          ]
+        }
+      ],
+      "champion": {
+        "seed": 1,
+        "text": "You do not need an agent that promises to handle the world. You need one that can say exactly what it touched and what it refused."
+      }
+    },
+    "pod_attribution_blindness": {
+      "name": "Attribution Blindness",
+      "rounds": [
+        {
+          "round": 1,
+          "matches": [
+            {
+              "a_seed": 0,
+              "b_seed": 1,
+              "scores": {
+                "a": {
+                  "pain": 18,
+                  "spec": 19,
+                  "pull": 10
+                },
+                "b": {
+                  "pain": 23,
+                  "spec": 21,
+                  "pull": 15
+                }
+              },
+              "judges": [
+                {
+                  "archetype": "skim",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "B directly names the hidden confidence interval and the refusal to show it, making the pain more visceral and specific."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "busy_operator",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 5,
+                      "spec": 4,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "Idea B hits harder because it accuses the owner of refusing to show the confidence intervals, directly naming the specific pain of hiding the truth about attribution."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "skeptical_buyer",
+                  "verdict": {
+                    "a": {
+                      "pain": 3,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "Idea B more directly challenges the reader's denial about attribution failure and uses concrete terms like 'confidence interval' to prove it understands the pain."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "pattern_hunter",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 5,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 5,
+                      "spec": 4,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "B wins because it recognizes the deeper pain of attribution loss and the psychological avoidance of uncertainty, which is more acute than A's descriptive statement about not knowing which sentence or path worked."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "tired_scroller",
+                  "verdict": {
+                    "a": {
+                      "pain": 3,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "Idea B directly names the pain of lost attribution with a concrete, memorable image (confidence interval), while Idea A stays abstract about traffic and traction."
+                  },
+                  "winner": "B"
+                }
+              ],
+              "winner_seed": 1
+            },
+            {
+              "a_seed": 2,
+              "b_seed": 3,
+              "scores": {
+                "a": {
+                  "pain": 21,
+                  "spec": 17,
+                  "pull": 11
+                },
+                "b": {
+                  "pain": 17,
+                  "spec": 20,
+                  "pull": 11
+                }
+              },
+              "judges": [
+                {
+                  "archetype": "skim",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 3,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "Idea A names the specific felt pain of being blind despite data, which is sharper and more immediate than B's abstract measurement problem."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "busy_operator",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 3,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "Idea A names the specific, felt pain of being blind to the visitor's recognized pain, while Idea B only points at a generic gap between conversion and path."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "skeptical_buyer",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 4,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "A",
+                    "why": "Idea A directly names the specific pain of not knowing which pain drove action, which is more visceral and actionable than Idea B's focus on path vs. conversion."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "pattern_hunter",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "winner": "B",
+                    "why": "Both ideas recognize the reader's pain equally well, but Idea B is more specific and concrete, giving it a higher total score."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "tired_scroller",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 3,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "Idea A directly captures the pain of not knowing which specific visitor pain triggered action, while Idea B focuses on the path, making A's pain recognition stronger."
+                  },
+                  "winner": "A"
+                }
+              ],
+              "winner_seed": 2
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "matches": [
+            {
+              "a_seed": 1,
+              "b_seed": 2,
+              "scores": {
+                "a": {
+                  "pain": 18,
+                  "spec": 18,
+                  "pull": 11
+                },
+                "b": {
+                  "pain": 21,
+                  "spec": 20,
+                  "pull": 10
+                }
+              },
+              "judges": [
+                {
+                  "archetype": "skim",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "Idea A cuts deeper into the specific pain of lost attribution and hidden uncertainty, while Idea B stays at the surface level of data blindness."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "busy_operator",
+                  "verdict": {
+                    "a": {
+                      "pain": 3,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "winner": "B",
+                    "why": "Idea B directly addresses the reader's pain of having data without understanding the motivating pain, while Idea A focuses on attribution uncertainty which is less immediate."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "skeptical_buyer",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 5,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "winner": "B",
+                    "why": "B directly names the reader's felt pain of being blind to visitor motivation despite having data, while A's abstract confidence interval critique is less immediately recognizable as a daily frustration."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "pattern_hunter",
+                  "verdict": {
+                    "a": {
+                      "pain": 3,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "winner": "B",
+                    "why": "Idea B lands a sharper pain: the frustration of having data volume without customer motive insight, which is more immediately recognizable and specific than the abstract collapse of attribution."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "tired_scroller",
+                  "verdict": {
+                    "a": {
+                      "pain": 3,
+                      "spec": 2,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "winner": "B",
+                    "why": "Idea B directly names the pain of having data without understanding the visitor's motivation, which is more relatable and specific than Idea A's abstract attribution problem."
+                  },
+                  "winner": "B"
+                }
+              ],
+              "winner_seed": 2
+            }
+          ]
+        }
+      ],
+      "champion": {
+        "seed": 2,
+        "text": "A dashboard full of visits can still leave you blind if it cannot answer which pain the visitor recognized before they acted."
+      }
+    },
+    "pod_edge_case_debt": {
+      "name": "The Edge-Case Bill",
+      "rounds": [
+        {
+          "round": 1,
+          "matches": [
+            {
+              "a_seed": 0,
+              "b_seed": 1,
+              "scores": {
+                "a": {
+                  "pain": 22,
+                  "spec": 22,
+                  "pull": 11
+                },
+                "b": {
+                  "pain": 21,
+                  "spec": 23,
+                  "pull": 14
+                }
+              },
+              "judges": [
+                {
+                  "archetype": "skim",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 3,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "A directly names the hidden failure the reader dreads, while B reframes a process."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "busy_operator",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "B names the exact moment of pain (provider rejection, honest next step) that a busy operator feels in their gut, while A stays abstract about 'the one branch'."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "skeptical_buyer",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 3
+                    },
+                    "winner": "A",
+                    "why": "Idea A cuts directly to the painful reality of unseen edge cases that fail only in the branch the demo never hit, a more acute and specific recognition of the reader's hidden failure pain than Idea B's broader deployment completeness point."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "pattern_hunter",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "A",
+                    "why": "A nails the specific, gut-wrenching pain of a demo-blind spot failure, while B addresses a related but less visceral deployment criterion."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "tired_scroller",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "B names the exact moment of failure (provider rejection, honest next step) that every tired ops person has felt, while A stays abstract about 'the one branch.'"
+                  },
+                  "winner": "B"
+                }
+              ],
+              "winner_seed": 0
+            },
+            {
+              "a_seed": 2,
+              "b_seed": 3,
+              "scores": {
+                "a": {
+                  "pain": 21,
+                  "spec": 24,
+                  "pull": 13
+                },
+                "b": {
+                  "pain": 16,
+                  "spec": 13,
+                  "pull": 11
+                }
+              },
+              "judges": [
+                {
+                  "archetype": "skim",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 3,
+                      "spec": 2,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "Idea A nails the hidden, nagging pain of configuration drift with razor specificity, while B remains a generic truism about edge cases."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "busy_operator",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 3,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "Idea A names the exact silent, config-level pain of a $1-3M owner's Tuesday afternoon\u2014the invisible mismatch between account, domain, and webhook\u2014while Idea B stays generic about 'edge cases' and trust."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "skeptical_buyer",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 3,
+                      "spec": 2,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "Idea A precisely names a concrete, unrecognized pain\u2014the silent mismatch\u2014with pointable elements (account, domain, webhook), while Idea B speaks generically about trust loss without a specific felt instance."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "pattern_hunter",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 3,
+                      "pull": 3
+                    },
+                    "winner": "A",
+                    "why": "Idea A more precisely names the specific, silent configuration mismatches that cause real frustration, while Idea B is more general about edge cases."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "tired_scroller",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 3,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "A names the specific, silent, multi-part mismatch pain that any tired dev has felt, while B stays generic about 'edge cases' and trust."
+                  },
+                  "winner": "A"
+                }
+              ],
+              "winner_seed": 2
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "matches": [
+            {
+              "a_seed": 0,
+              "b_seed": 2,
+              "scores": {
+                "a": {
+                  "pain": 23,
+                  "spec": 19,
+                  "pull": 12
+                },
+                "b": {
+                  "pain": 23,
+                  "spec": 25,
+                  "pull": 13
+                }
+              },
+              "judges": [
+                {
+                  "archetype": "skim",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "B names the exact, silent, multi-part pain of configuration drift that every ops person feels in their gut, while A is clever but more abstract."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "busy_operator",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 5,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "Idea A directly names the pain of a system failing in an untested edge case, which is a specific and relatable frustration for a busy owner, while Idea B, though specific, is more about general configuration mismatches."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "skeptical_buyer",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 4,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "Both ideas nail the pain of hidden failures, but B is more specific with pointable examples like account, domain, and webhook."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "pattern_hunter",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "Idea B names the reader's specific, silent mismatches (account, domain, webhook) instead of a single vague branch, making the pain more concrete and actionable."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "tired_scroller",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 4,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 5,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "Idea A cuts deeper by naming the exact hidden branch that doomed the system, hitting the painful reality of untested code paths more memorably than Idea B's broader configuration mismatch."
+                  },
+                  "winner": "A"
+                }
+              ],
+              "winner_seed": 2
+            }
+          ]
+        }
+      ],
+      "champion": {
+        "seed": 2,
+        "text": "The bug is rarely the dramatic outage. It is the silent mismatch between the account, the domain, the webhook, and the thing you thought you configured."
+      }
+    },
+    "pod_incomplete_information": {
+      "name": "The Incomplete-Information Trap",
+      "rounds": [
+        {
+          "round": 1,
+          "matches": [
+            {
+              "a_seed": 0,
+              "b_seed": 1,
+              "scores": {
+                "a": {
+                  "pain": 23,
+                  "spec": 22,
+                  "pull": 12
+                },
+                "b": {
+                  "pain": 20,
+                  "spec": 20,
+                  "pull": 12
+                }
+              },
+              "judges": [
+                {
+                  "archetype": "skim",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 3,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "Idea A cuts deeper into the reader's fear of visible failure, making it a more painful and urgent hook than Idea B's call for experimentation."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "busy_operator",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "Idea A nails the exact pain of a busy owner\u2014fear of being visibly wrong\u2014which is more visceral and specific than the efficiency pain in B."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "skeptical_buyer",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 5,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "winner": "B",
+                    "why": "B names the specific felt pain of endless research paralysis and gives a pointable escape hatch (define the stop condition), while A remains abstractly insightful but less immediately actionable."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "pattern_hunter",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 3,
+                      "spec": 4,
+                      "pull": 3
+                    },
+                    "winner": "A",
+                    "why": "Idea A cuts deeper into the reader's hidden fear of being visibly wrong, making their pain the central pitch, which outweighs the more procedural approach of Idea B."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "tired_scroller",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "Idea B names the exact shape of the pain\u2014bounded experiment and the decision to stop\u2014while Idea A stays abstract about risk, so B's higher pain recognition wins outright."
+                  },
+                  "winner": "B"
+                }
+              ],
+              "winner_seed": 0
+            },
+            {
+              "a_seed": 2,
+              "b_seed": 3,
+              "scores": {
+                "a": {
+                  "pain": 20,
+                  "spec": 19,
+                  "pull": 11
+                },
+                "b": {
+                  "pain": 19,
+                  "spec": 21,
+                  "pull": 14
+                }
+              },
+              "judges": [
+                {
+                  "archetype": "skim",
+                  "verdict": {
+                    "a": {
+                      "pain": 3,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "B names a sharper felt pain\u2014the tension between messy permission and real deadline pressure\u2014while A stays abstract about 'cost' and 'evidence.'"
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "busy_operator",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "A",
+                    "why": "Idea A more directly addresses the pain of costly decisions due to lack of evidence, which resonates deeply with a busy owner's fear of expensive mistakes."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "skeptical_buyer",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 3,
+                      "pull": 3
+                    },
+                    "winner": "A",
+                    "why": "Idea A nails the reader's felt pain of wasting evidence-gathering time, making decisions costlier, while Idea B's metaphor is clever but less directly pointable to a universal experience."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "pattern_hunter",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "Idea B more directly addresses the reader's pain of being stuck in perpetual mess mode, using a sharp belief flip that demands immediate action."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "tired_scroller",
+                  "verdict": {
+                    "a": {
+                      "pain": 3,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 2,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "A edges B on pain_recognition by naming the concrete cost of waiting as missed evidence, while B's 'start messy' feels more like a tactic than a felt pain."
+                  },
+                  "winner": "A"
+                }
+              ],
+              "winner_seed": 2
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "matches": [
+            {
+              "a_seed": 0,
+              "b_seed": 2,
+              "scores": {
+                "a": {
+                  "pain": 25,
+                  "spec": 23,
+                  "pull": 11
+                },
+                "b": {
+                  "pain": 20,
+                  "spec": 20,
+                  "pull": 12
+                }
+              },
+              "judges": [
+                {
+                  "archetype": "skim",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 5,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "Idea A directly names the reader's hidden fear of being visibly wrong, a more acute pain than the abstract cost of waiting."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "busy_operator",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "A",
+                    "why": "Idea A more directly addresses the owner's fear of being visibly wrong, a deeper pain than the abstract cost of waiting."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "skeptical_buyer",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "Idea A cuts deeper by naming the specific fear of being visibly wrong, which is a more visceral and actionable pain than the abstract cost of missed evidence."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "pattern_hunter",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 3,
+                      "pull": 3
+                    },
+                    "winner": "A",
+                    "why": "Idea A directly exposes the reader's hidden fear of being visibly wrong, a deeper and more specific pain than Idea B's abstract cost of missed evidence."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "tired_scroller",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "Idea A directly names the underlying fear of appearing wrong, which is a sharper and more specific pain than the abstract cost of waiting."
+                  },
+                  "winner": "A"
+                }
+              ],
+              "winner_seed": 0
+            }
+          ]
+        }
+      ],
+      "champion": {
+        "seed": 0,
+        "text": "You are not waiting for more information; you are waiting for information that removes the risk of being visibly wrong."
+      }
+    }
+  },
+  "final": {
+    "points": {
+      "pod_receipt_debt": 3,
+      "pod_complexity_tax": 0,
+      "pod_bounded_autonomy": 1,
+      "pod_attribution_blindness": 2,
+      "pod_edge_case_debt": 5,
+      "pod_incomplete_information": 4
+    },
+    "matchups": [
+      {
+        "vs": [
+          "pod_receipt_debt",
+          "pod_complexity_tax"
+        ],
+        "winner": "pod_receipt_debt",
+        "judges": [
+          {
+            "archetype": "skim",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 3,
+                "pull": 2
+              },
+              "b": {
+                "pain": 3,
+                "spec": 4,
+                "pull": 2
+              },
+              "winner": "A",
+              "why": "Idea A nails the specific, visceral pain of broken trust from a failed README, while Idea B's abstract complexity pain is less immediately felt."
+            },
+            "winner": "A"
+          },
+          {
+            "archetype": "busy_operator",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 2
+              },
+              "b": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "winner": "B",
+              "why": "Idea B names the specific, invisible pain of debugging a system where a single missing state corrupts all downstream logic\u2014a felt experience for any operator who has wasted hours on a 'rational' wrong path\u2014while Idea A, though sharp, stays in the more generic territory of documentation trust."
+            },
+            "winner": "B"
+          },
+          {
+            "archetype": "skeptical_buyer",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 5,
+                "pull": 3
+              },
+              "b": {
+                "pain": 3,
+                "spec": 3,
+                "pull": 2
+              },
+              "winner": "A",
+              "why": "Idea A targets a concrete, relatable pain\u2014the broken promise between a README and actual runnability\u2014with high specificity and immediate action, while Idea B's concept is more abstract and less immediately actionable."
+            },
+            "winner": "A"
+          },
+          {
+            "archetype": "pattern_hunter",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 5,
+                "pull": 3
+              },
+              "b": {
+                "pain": 3,
+                "spec": 3,
+                "pull": 2
+              },
+              "winner": "A",
+              "why": "A directly targets the immediate pain of broken trust from documentation-to-reality gaps, which is more visceral and actionable than B's abstract system complexity."
+            },
+            "winner": "A"
+          },
+          {
+            "archetype": "tired_scroller",
+            "verdict": {
+              "a": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "b": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 2
+              },
+              "winner": "A",
+              "why": "Idea A directly names the gap between documentation and reality, a sharper, more tangible pain than Idea B's abstract missing state problem."
+            },
+            "winner": "A"
+          }
+        ]
+      },
+      {
+        "vs": [
+          "pod_receipt_debt",
+          "pod_bounded_autonomy"
+        ],
+        "winner": "pod_receipt_debt",
+        "judges": [
+          {
+            "archetype": "skim",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 5,
+                "pull": 2
+              },
+              "b": {
+                "pain": 3,
+                "spec": 4,
+                "pull": 3
+              },
+              "winner": "A",
+              "why": "Idea A nails the specific, visceral pain of a README that lies to strangers, making trust die on the spot\u2014a more immediate and universal developer wound than B's agent transparency angle."
+            },
+            "winner": "A"
+          },
+          {
+            "archetype": "busy_operator",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 2
+              },
+              "b": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "winner": "B",
+              "why": "B names the exact, visceral pain of opacity and lack of auditability in agent behavior, while A's pain is real but more abstract and less immediately actionable."
+            },
+            "winner": "B"
+          },
+          {
+            "archetype": "skeptical_buyer",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 3
+              },
+              "b": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 2
+              },
+              "winner": "A",
+              "why": "Both hit the proof-stress pain with near-identical recognition and specificity, but A's action_pull is stronger because it names a concrete, fixable failure point (trust death from a broken README) that demands immediate verification, whereas B's demand for auditability is smarter but less urgent to act on."
+            },
+            "winner": "A"
+          },
+          {
+            "archetype": "pattern_hunter",
+            "verdict": {
+              "a": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "b": {
+                "pain": 4,
+                "spec": 3,
+                "pull": 2
+              },
+              "winner": "A",
+              "why": "Idea A directly targets the specific pain of broken trust due to gaps between documentation and actual runnability, making it more immediate and relatable."
+            },
+            "winner": "A"
+          },
+          {
+            "archetype": "tired_scroller",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 2
+              },
+              "b": {
+                "pain": 4,
+                "spec": 5,
+                "pull": 3
+              },
+              "winner": "B",
+              "why": "Both recognize specific pains, but Idea B offers a more concrete and actionable solution with higher specificity and pull."
+            },
+            "winner": "B"
+          }
+        ]
+      },
+      {
+        "vs": [
+          "pod_receipt_debt",
+          "pod_attribution_blindness"
+        ],
+        "winner": "pod_receipt_debt",
+        "judges": [
+          {
+            "archetype": "skim",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 3
+              },
+              "b": {
+                "pain": 2,
+                "spec": 3,
+                "pull": 2
+              },
+              "winner": "A",
+              "why": "Idea A's pain of broken trust from an un-runnable README is more immediate and felt than Idea B's abstract blindness, and it has higher pain_recognition."
+            },
+            "winner": "A"
+          },
+          {
+            "archetype": "busy_operator",
+            "verdict": {
+              "a": {
+                "pain": 2,
+                "spec": 3,
+                "pull": 2
+              },
+              "b": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 3
+              },
+              "winner": "B",
+              "why": "B directly names the owner's pain of meaningless vanity metrics, while A speaks to a technical audience's trust issue."
+            },
+            "winner": "B"
+          },
+          {
+            "archetype": "skeptical_buyer",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 3,
+                "pull": 2
+              },
+              "b": {
+                "pain": 5,
+                "spec": 4,
+                "pull": 3
+              },
+              "winner": "B",
+              "why": "Idea B names a concrete, provable blind spot (what pain drove the visitor), while Idea A's 'trust gap' is more abstract and harder to point at."
+            },
+            "winner": "B"
+          },
+          {
+            "archetype": "pattern_hunter",
+            "verdict": {
+              "a": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "b": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 2
+              },
+              "winner": "A",
+              "why": "A directly names the trust death from a concrete README gap, hitting a sharper pain than B's abstract data blindness."
+            },
+            "winner": "A"
+          },
+          {
+            "archetype": "tired_scroller",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 3
+              },
+              "b": {
+                "pain": 3,
+                "spec": 3,
+                "pull": 2
+              },
+              "winner": "A",
+              "why": "A nails the specific, visceral pain of broken trust from a failed README, while B's pain is more abstract and harder to point at."
+            },
+            "winner": "A"
+          }
+        ]
+      },
+      {
+        "vs": [
+          "pod_receipt_debt",
+          "pod_edge_case_debt"
+        ],
+        "winner": "pod_edge_case_debt",
+        "judges": [
+          {
+            "archetype": "skim",
+            "verdict": {
+              "a": {
+                "pain": 5,
+                "spec": 3,
+                "pull": 3
+              },
+              "b": {
+                "pain": 4,
+                "spec": 5,
+                "pull": 2
+              },
+              "winner": "A",
+              "why": "Idea A nails the visceral pain of broken trust from a gap between promise and reality, which is more urgent than the technical specificity of Idea B."
+            },
+            "winner": "A"
+          },
+          {
+            "archetype": "busy_operator",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 2
+              },
+              "b": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "winner": "B",
+              "why": "B nails the messy, silent mismatch pain that every busy operator has felt mid-Tuesday, while A is a bit more abstract."
+            },
+            "winner": "B"
+          },
+          {
+            "archetype": "skeptical_buyer",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 2
+              },
+              "b": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "winner": "B",
+              "why": "B's pain of silent mismatches is more universally felt and more concretely pointable than A's trust gap."
+            },
+            "winner": "B"
+          },
+          {
+            "archetype": "pattern_hunter",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 3
+              },
+              "b": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "winner": "B",
+              "why": "Idea B nails a quieter, more specific pain\u2014the silent config mismatch no one talks about\u2014that earns it the pain_recognition win over A's more generic trust-in-README gap."
+            },
+            "winner": "B"
+          },
+          {
+            "archetype": "tired_scroller",
+            "verdict": {
+              "a": {
+                "pain": 5,
+                "spec": 4,
+                "pull": 2
+              },
+              "b": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 2
+              },
+              "winner": "B",
+              "why": "Both nail the pain, but B's specific list of mismatched components makes it more tangible and actionable."
+            },
+            "winner": "B"
+          }
+        ]
+      },
+      {
+        "vs": [
+          "pod_receipt_debt",
+          "pod_incomplete_information"
+        ],
+        "winner": "pod_incomplete_information",
+        "judges": [
+          {
+            "archetype": "skim",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 2
+              },
+              "b": {
+                "pain": 5,
+                "spec": 3,
+                "pull": 2
+              },
+              "winner": "B",
+              "why": "Idea B's pain of avoiding visible wrongness is more universally felt and emotionally immediate, outweighing Idea A's technical trust gap."
+            },
+            "winner": "B"
+          },
+          {
+            "archetype": "busy_operator",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 5,
+                "pull": 2
+              },
+              "b": {
+                "pain": 5,
+                "spec": 3,
+                "pull": 3
+              },
+              "winner": "B",
+              "why": "Idea B directly names the reader's hidden pain of avoiding visible failure, which is more urgent and personal than the technical trust gap in Idea A."
+            },
+            "winner": "B"
+          },
+          {
+            "archetype": "skeptical_buyer",
+            "verdict": {
+              "a": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 2
+              },
+              "b": {
+                "pain": 4,
+                "spec": 3,
+                "pull": 2
+              },
+              "winner": "A",
+              "why": "Idea A directly names the concrete, visceral pain of a broken promise between documentation and reality, which is more specific and immediately felt than the abstract fear of being wrong."
+            },
+            "winner": "A"
+          },
+          {
+            "archetype": "pattern_hunter",
+            "verdict": {
+              "a": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "b": {
+                "pain": 4,
+                "spec": 3,
+                "pull": 2
+              },
+              "winner": "A",
+              "why": "Idea A directly names a concrete pain point (broken README promises) with high specificity and urgency, while Idea B is more abstract."
+            },
+            "winner": "A"
+          },
+          {
+            "archetype": "tired_scroller",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 2
+              },
+              "b": {
+                "pain": 5,
+                "spec": 3,
+                "pull": 2
+              },
+              "winner": "B",
+              "why": "B nails the deeper, more specific pain of social risk in decision-making, while A's pain is real but more generic."
+            },
+            "winner": "B"
+          }
+        ]
+      },
+      {
+        "vs": [
+          "pod_complexity_tax",
+          "pod_bounded_autonomy"
+        ],
+        "winner": "pod_bounded_autonomy",
+        "judges": [
+          {
+            "archetype": "skim",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 5,
+                "pull": 2
+              },
+              "b": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "winner": "B",
+              "why": "Idea B nails the reader's exact pain of trusting an opaque agent, while A's insight is clever but less visceral."
+            },
+            "winner": "B"
+          },
+          {
+            "archetype": "busy_operator",
+            "verdict": {
+              "a": {
+                "pain": 3,
+                "spec": 4,
+                "pull": 2
+              },
+              "b": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "winner": "B",
+              "why": "Idea B directly names the pain of needing clear accountability from agents, which is more immediate and actionable for a busy owner than the abstract hidden cost of complex systems."
+            },
+            "winner": "B"
+          },
+          {
+            "archetype": "skeptical_buyer",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 2
+              },
+              "b": {
+                "pain": 3,
+                "spec": 3,
+                "pull": 2
+              },
+              "winner": "A",
+              "why": "Idea A nails a specific, painful debugging reality\u2014the cascading cost of a single missed state\u2014while B stays abstract about agent behavior without proving it understands a concrete operational pain."
+            },
+            "winner": "A"
+          },
+          {
+            "archetype": "pattern_hunter",
+            "verdict": {
+              "a": {
+                "pain": 5,
+                "spec": 4,
+                "pull": 2
+              },
+              "b": {
+                "pain": 4,
+                "spec": 5,
+                "pull": 3
+              },
+              "winner": "A",
+              "why": "Idea A identifies a more specific and painful cognitive blind spot in complex systems, making it resonate more deeply with the reader's felt experience."
+            },
+            "winner": "A"
+          },
+          {
+            "archetype": "tired_scroller",
+            "verdict": {
+              "a": {
+                "pain": 2,
+                "spec": 2,
+                "pull": 1
+              },
+              "b": {
+                "pain": 3,
+                "spec": 4,
+                "pull": 2
+              },
+              "winner": "B",
+              "why": "Idea B names a concrete, felt pain (distrust in vague promises) with a clear, pointable alternative, while Idea A stays abstract and requires effort to connect."
+            },
+            "winner": "B"
+          }
+        ]
+      },
+      {
+        "vs": [
+          "pod_complexity_tax",
+          "pod_attribution_blindness"
+        ],
+        "winner": "pod_attribution_blindness",
+        "judges": [
+          {
+            "archetype": "skim",
+            "verdict": {
+              "a": {
+                "pain": 2,
+                "spec": 3,
+                "pull": 2
+              },
+              "b": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 2
+              },
+              "winner": "B",
+              "why": "B names the specific felt pain of being blind to visitor intent despite having data, while A's abstract system cost doesn't land as a reader's immediate ache."
+            },
+            "winner": "B"
+          },
+          {
+            "archetype": "busy_operator",
+            "verdict": {
+              "a": {
+                "pain": 3,
+                "spec": 2,
+                "pull": 2
+              },
+              "b": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 3
+              },
+              "winner": "B",
+              "why": "Idea B directly names the owner's felt pain of having data but lacking insight into customer pain, while Idea A is more abstract about system complexity."
+            },
+            "winner": "B"
+          },
+          {
+            "archetype": "skeptical_buyer",
+            "verdict": {
+              "a": {
+                "pain": 2,
+                "spec": 1,
+                "pull": 1
+              },
+              "b": {
+                "pain": 4,
+                "spec": 5,
+                "pull": 3
+              },
+              "winner": "B",
+              "why": "Idea B directly addresses the concrete pain of being data-rich but insight-poor, while Idea A remains abstract and less immediately relatable."
+            },
+            "winner": "B"
+          },
+          {
+            "archetype": "pattern_hunter",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 2
+              },
+              "b": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "winner": "B",
+              "why": "Idea B directly names the reader's felt pain of being misled by vanity metrics, while Idea A's abstract system flaw, though insightful, lacks the same visceral recognition of a daily analytics frustration."
+            },
+            "winner": "B"
+          },
+          {
+            "archetype": "tired_scroller",
+            "verdict": {
+              "a": {
+                "pain": 3,
+                "spec": 2,
+                "pull": 1
+              },
+              "b": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 2
+              },
+              "winner": "B",
+              "why": "Idea B directly names the reader's pain of having data without understanding visitor motivation, while Idea A is too abstract about system costs."
+            },
+            "winner": "B"
+          }
+        ]
+      },
+      {
+        "vs": [
+          "pod_complexity_tax",
+          "pod_edge_case_debt"
+        ],
+        "winner": "pod_edge_case_debt",
+        "judges": [
+          {
+            "archetype": "skim",
+            "verdict": {
+              "a": {
+                "pain": 3,
+                "spec": 3,
+                "pull": 2
+              },
+              "b": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 3
+              },
+              "winner": "B",
+              "why": "Idea B names the specific, tangible, silent pain of configurations failing quietly, which hooks faster than a philosophical insight about hidden system costs."
+            },
+            "winner": "B"
+          },
+          {
+            "archetype": "busy_operator",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 3,
+                "pull": 2
+              },
+              "b": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "winner": "B",
+              "why": "Idea B directly names specific silent mismatches (account, domain, webhook) that cause real operational headaches, making it more relatable and actionable for a busy owner."
+            },
+            "winner": "B"
+          },
+          {
+            "archetype": "skeptical_buyer",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 2
+              },
+              "b": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "winner": "B",
+              "why": "B names pointable, concrete mismatches (account, domain, webhook) that any ops or dev reader has felt the sting of, while A's 'missing state' is more abstract and less immediately recognizable as a specific pain."
+            },
+            "winner": "B"
+          },
+          {
+            "archetype": "pattern_hunter",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 3,
+                "pull": 2
+              },
+              "b": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "winner": "B",
+              "why": "B captures the precise, everyday pain of silent misconfiguration with concrete examples, making it more relatable and urgent than A's abstract concept."
+            },
+            "winner": "B"
+          },
+          {
+            "archetype": "tired_scroller",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 3,
+                "pull": 2
+              },
+              "b": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "winner": "B",
+              "why": "B names the exact felt pain (silent mismatch between account/domain/webhook) with pointable specifics, while A stays abstract and intellectual."
+            },
+            "winner": "B"
+          }
+        ]
+      },
+      {
+        "vs": [
+          "pod_complexity_tax",
+          "pod_incomplete_information"
+        ],
+        "winner": "pod_incomplete_information",
+        "judges": [
+          {
+            "archetype": "skim",
+            "verdict": {
+              "a": {
+                "pain": 3,
+                "spec": 4,
+                "pull": 2
+              },
+              "b": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 2
+              },
+              "winner": "B",
+              "why": "Idea B more directly addresses the reader's actual felt pain of avoiding visible failure, making it more relatable and urgent."
+            },
+            "winner": "B"
+          },
+          {
+            "archetype": "busy_operator",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 3,
+                "pull": 2
+              },
+              "b": {
+                "pain": 5,
+                "spec": 4,
+                "pull": 2
+              },
+              "winner": "B",
+              "why": "Idea B directly names the fear of visible failure that makes you stall, while Idea A is insightful but less immediately felt."
+            },
+            "winner": "B"
+          },
+          {
+            "archetype": "skeptical_buyer",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 3,
+                "pull": 2
+              },
+              "b": {
+                "pain": 5,
+                "spec": 4,
+                "pull": 3
+              },
+              "winner": "B",
+              "why": "B names the specific, visceral fear of looking wrong in public, while A stays abstract about 'missing states' and 'rational decisions' without a pointable emotional trigger."
+            },
+            "winner": "B"
+          },
+          {
+            "archetype": "pattern_hunter",
+            "verdict": {
+              "a": {
+                "pain": 3,
+                "spec": 4,
+                "pull": 2
+              },
+              "b": {
+                "pain": 5,
+                "spec": 4,
+                "pull": 3
+              },
+              "winner": "B",
+              "why": "B names the exact emotional stall\u2014waiting for information that makes you safe from visible failure\u2014while A stays in abstract system diagnostics."
+            },
+            "winner": "B"
+          },
+          {
+            "archetype": "tired_scroller",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 3,
+                "pull": 2
+              },
+              "b": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 2
+              },
+              "winner": "B",
+              "why": "B\u66f4\u5177\u4f53\u5730\u6307\u5411\u4e86\u5bb3\u6015\u88ab\u770b\u89c1\u72af\u9519\u7684\u5fc3\u7406\uff0c\u4f7f\u8bfb\u8005\u7acb\u5373\u4ea7\u751f\u5171\u9e23\u3002"
+            },
+            "winner": "B"
+          }
+        ]
+      },
+      {
+        "vs": [
+          "pod_bounded_autonomy",
+          "pod_attribution_blindness"
+        ],
+        "winner": "pod_attribution_blindness",
+        "judges": [
+          {
+            "archetype": "skim",
+            "verdict": {
+              "a": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "b": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 2
+              },
+              "winner": "A",
+              "why": "A's pain of agent opacity is more visceral and specific than B's analytics blindness, so higher pain_recognition wins."
+            },
+            "winner": "A"
+          },
+          {
+            "archetype": "busy_operator",
+            "verdict": {
+              "a": {
+                "pain": 3,
+                "spec": 4,
+                "pull": 2
+              },
+              "b": {
+                "pain": 5,
+                "spec": 4,
+                "pull": 2
+              },
+              "winner": "B",
+              "why": "B directly names the exact pain of data blindness regarding visitor's recognized pain, which is the core of the tournament's problem shape."
+            },
+            "winner": "B"
+          },
+          {
+            "archetype": "skeptical_buyer",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 2
+              },
+              "b": {
+                "pain": 5,
+                "spec": 3,
+                "pull": 2
+              },
+              "winner": "B",
+              "why": "B names the specific blind spot (unrecognized visitor pain) that a dashboard cannot show, which is a sharper, more pointable pain than A's abstract contrast between handling and touching."
+            },
+            "winner": "B"
+          },
+          {
+            "archetype": "pattern_hunter",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 2
+              },
+              "b": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "winner": "B",
+              "why": "B\u66f4\u76f4\u63a5\u5730\u51fb\u4e2d\u8425\u9500\u4eba\u5458\u88ab\u865a\u8363\u6307\u6807\u8499\u853d\u3001\u65e0\u6cd5\u89e6\u53ca\u7528\u6237\u771f\u5b9e\u52a8\u673a\u7684\u6838\u5fc3\u75db\u82e6\uff0c\u800cA\u7684\u2018\u89e6\u78b0\u4e0e\u62d2\u7edd\u2019\u867d\u5177\u4f53\u4f46\u7565\u62bd\u8c61\u3002"
+            },
+            "winner": "B"
+          },
+          {
+            "archetype": "tired_scroller",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 5,
+                "pull": 2
+              },
+              "b": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 2
+              },
+              "winner": "A",
+              "why": "Both recognize real pain, but Idea A's concrete 'touched and refused' is more specific and memorable for a tired reader."
+            },
+            "winner": "A"
+          }
+        ]
+      },
+      {
+        "vs": [
+          "pod_bounded_autonomy",
+          "pod_edge_case_debt"
+        ],
+        "winner": "pod_edge_case_debt",
+        "judges": [
+          {
+            "archetype": "skim",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 5,
+                "pull": 3
+              },
+              "b": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "winner": "B",
+              "why": "B captures the deeply felt frustration of silent configuration mismatches more acutely than A's broader critique of agent opacity."
+            },
+            "winner": "B"
+          },
+          {
+            "archetype": "busy_operator",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 2
+              },
+              "b": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "winner": "B",
+              "why": "Idea B directly names the silent, configuration-level pain that busy operators experience, making it more relatable and actionable."
+            },
+            "winner": "B"
+          },
+          {
+            "archetype": "skeptical_buyer",
+            "verdict": {
+              "a": {
+                "pain": 3,
+                "spec": 3,
+                "pull": 2
+              },
+              "b": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 2
+              },
+              "winner": "B",
+              "why": "Idea B hits a sharper, more concrete pain by naming specific technical mismatches that developers actually feel, while Idea A stays abstract about agent transparency."
+            },
+            "winner": "B"
+          },
+          {
+            "archetype": "pattern_hunter",
+            "verdict": {
+              "a": {
+                "pain": 3,
+                "spec": 3,
+                "pull": 2
+              },
+              "b": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 2
+              },
+              "winner": "B",
+              "why": "Idea B directly names the silent, daily frustration of configuration mismatches, making the pain instantly recognizable and highly specific, while Idea A's pain point is more abstract."
+            },
+            "winner": "B"
+          },
+          {
+            "archetype": "tired_scroller",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 5,
+                "pull": 3
+              },
+              "b": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 2
+              },
+              "winner": "B",
+              "why": "B nails the exact, weary-making pain of invisible config mismatches that nobody glamorizes, while A's 'touched vs refused' is clever but feels like philosophy homework after a long day."
+            },
+            "winner": "B"
+          }
+        ]
+      },
+      {
+        "vs": [
+          "pod_bounded_autonomy",
+          "pod_incomplete_information"
+        ],
+        "winner": "pod_incomplete_information",
+        "judges": [
+          {
+            "archetype": "skim",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 5,
+                "pull": 3
+              },
+              "b": {
+                "pain": 5,
+                "spec": 4,
+                "pull": 3
+              },
+              "winner": "B",
+              "why": "B\u7684\u75db\u611f\u66f4\u6df1\u523b\u2014\u2014\u76f4\u63a5\u6307\u5411\u51b3\u7b56\u6050\u60e7\u548c\u98ce\u9669\u89c4\u907f\uff0c\u800cA\u867d\u6709\u5177\u4f53\u6027\u4f46\u75db\u611f\u8986\u76d6\u9762\u8f83\u7a84\u3002"
+            },
+            "winner": "B"
+          },
+          {
+            "archetype": "busy_operator",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 3,
+                "pull": 2
+              },
+              "b": {
+                "pain": 5,
+                "spec": 4,
+                "pull": 3
+              },
+              "winner": "B",
+              "why": "B nails the specific pain of a $1-3M owner who is paralyzed not by lack of data but by the fear of looking wrong in front of others, which is exactly the Tuesday afternoon skimming-between-meetings feeling."
+            },
+            "winner": "B"
+          },
+          {
+            "archetype": "skeptical_buyer",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 5,
+                "pull": 3
+              },
+              "b": {
+                "pain": 5,
+                "spec": 4,
+                "pull": 2
+              },
+              "winner": "B",
+              "why": "Idea B hits the deeper, more visceral pain of social risk and decision paralysis, while Idea A addresses a more technical transparency concern."
+            },
+            "winner": "B"
+          },
+          {
+            "archetype": "pattern_hunter",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 2
+              },
+              "b": {
+                "pain": 5,
+                "spec": 4,
+                "pull": 3
+              },
+              "winner": "B",
+              "why": "B nails the deeper pain of social risk in decision-making, while A, though sharp, addresses a more surface-level need for transparency."
+            },
+            "winner": "B"
+          },
+          {
+            "archetype": "tired_scroller",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 5,
+                "pull": 2
+              },
+              "b": {
+                "pain": 5,
+                "spec": 4,
+                "pull": 3
+              },
+              "winner": "B",
+              "why": "Idea B directly targets the core pain of avoiding visible failure, which resonates more deeply than the transparency need in A."
+            },
+            "winner": "B"
+          }
+        ]
+      },
+      {
+        "vs": [
+          "pod_attribution_blindness",
+          "pod_edge_case_debt"
+        ],
+        "winner": "pod_edge_case_debt",
+        "judges": [
+          {
+            "archetype": "skim",
+            "verdict": {
+              "a": {
+                "pain": 3,
+                "spec": 2,
+                "pull": 2
+              },
+              "b": {
+                "pain": 4,
+                "spec": 5,
+                "pull": 3
+              },
+              "winner": "B",
+              "why": "It names the exact silent setup failures that cause real headaches, making the pain instantly recognizable."
+            },
+            "winner": "B"
+          },
+          {
+            "archetype": "busy_operator",
+            "verdict": {
+              "a": {
+                "pain": 3,
+                "spec": 4,
+                "pull": 2
+              },
+              "b": {
+                "pain": 4,
+                "spec": 5,
+                "pull": 3
+              },
+              "winner": "B",
+              "why": "Idea B names the specific silent mismatch pain (account/domain/webhook) that the skimming owner feels Tuesday PM, with higher pain_recognition and specificity than A's generic blindness."
+            },
+            "winner": "B"
+          },
+          {
+            "archetype": "skeptical_buyer",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 2,
+                "pull": 2
+              },
+              "b": {
+                "pain": 3,
+                "spec": 5,
+                "pull": 2
+              },
+              "winner": "A",
+              "why": "Idea A directly names the unmet need for understanding visitor pain, which is more fundamental to the buyer's actual frustration than a tech-config mismatch."
+            },
+            "winner": "A"
+          },
+          {
+            "archetype": "pattern_hunter",
+            "verdict": {
+              "a": {
+                "pain": 3,
+                "spec": 3,
+                "pull": 2
+              },
+              "b": {
+                "pain": 4,
+                "spec": 5,
+                "pull": 3
+              },
+              "winner": "B",
+              "why": "B names the exact silent mismatch (account/domain/webhook) that causes real operational blindness, while A stays abstract about 'which pain'."
+            },
+            "winner": "B"
+          },
+          {
+            "archetype": "tired_scroller",
+            "verdict": {
+              "a": {
+                "pain": 2,
+                "spec": 2,
+                "pull": 1
+              },
+              "b": {
+                "pain": 3,
+                "spec": 4,
+                "pull": 2
+              },
+              "winner": "B",
+              "why": "B names a specific, relatable pain (silent configuration mismatch) while A stays abstract about 'pain recognition'."
+            },
+            "winner": "B"
+          }
+        ]
+      },
+      {
+        "vs": [
+          "pod_attribution_blindness",
+          "pod_incomplete_information"
+        ],
+        "winner": "pod_incomplete_information",
+        "judges": [
+          {
+            "archetype": "skim",
+            "verdict": {
+              "a": {
+                "pain": 3,
+                "spec": 3,
+                "pull": 2
+              },
+              "b": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 3
+              },
+              "winner": "B",
+              "why": "Idea B directly names the visceral fear of being visibly wrong, a more acute pain than the analytical blindness of Idea A."
+            },
+            "winner": "B"
+          },
+          {
+            "archetype": "busy_operator",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 2
+              },
+              "b": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "winner": "B",
+              "why": "B\u76f4\u63a5\u6233\u4e2d\u5fd9\u788c\u4f01\u4e1a\u4e3b\u5bb3\u6015\u505a\u9519\u88ab\u770b\u5230\u7684\u6df1\u5c42\u6050\u60e7\uff0c\u800cA\u867d\u7136\u5177\u4f53\u4f46\u672a\u89e6\u53ca\u51b3\u7b56\u98ce\u9669\u7684\u5fc3\u7406\u75db\u70b9\u3002"
+            },
+            "winner": "B"
+          },
+          {
+            "archetype": "skeptical_buyer",
+            "verdict": {
+              "a": {
+                "pain": 3,
+                "spec": 3,
+                "pull": 2
+              },
+              "b": {
+                "pain": 5,
+                "spec": 4,
+                "pull": 3
+              },
+              "winner": "B",
+              "why": "Idea B scores higher on pain_recognition because it directly targets the reader's fear of being visibly wrong, a more visceral and specific pain than Idea A's abstract blindness from data."
+            },
+            "winner": "B"
+          },
+          {
+            "archetype": "pattern_hunter",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 3,
+                "pull": 2
+              },
+              "b": {
+                "pain": 5,
+                "spec": 4,
+                "pull": 3
+              },
+              "winner": "B",
+              "why": "Idea B nails the hidden pain of decision paralysis driven by fear of public failure, while Idea A merely scratches at a data gap."
+            },
+            "winner": "B"
+          },
+          {
+            "archetype": "tired_scroller",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 2
+              },
+              "b": {
+                "pain": 3,
+                "spec": 3,
+                "pull": 3
+              },
+              "winner": "A",
+              "why": "A's pain recognition is higher because it directly addresses the specific blindness of not knowing the visitor's triggering pain despite having data, while B's fear of being wrong is more generic."
+            },
+            "winner": "A"
+          }
+        ]
+      },
+      {
+        "vs": [
+          "pod_edge_case_debt",
+          "pod_incomplete_information"
+        ],
+        "winner": "pod_edge_case_debt",
+        "judges": [
+          {
+            "archetype": "skim",
+            "verdict": {
+              "a": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "b": {
+                "pain": 4,
+                "spec": 2,
+                "pull": 2
+              },
+              "winner": "A",
+              "why": "Idea A nails a highly specific, concrete pain (silent mismatches in accounts, domains, webhooks) that operators instantly recognize, while Idea B's pain is more abstract and less pointed."
+            },
+            "winner": "A"
+          },
+          {
+            "archetype": "busy_operator",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 5,
+                "pull": 2
+              },
+              "b": {
+                "pain": 3,
+                "spec": 3,
+                "pull": 2
+              },
+              "winner": "A",
+              "why": "Idea A directly names the specific, hidden operational pain of mismatched configurations that owners face, while Idea B is more abstract about decision risk."
+            },
+            "winner": "A"
+          },
+          {
+            "archetype": "skeptical_buyer",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 5,
+                "pull": 2
+              },
+              "b": {
+                "pain": 3,
+                "spec": 2,
+                "pull": 2
+              },
+              "winner": "A",
+              "why": "A names pointable failure points (account, domain, webhook) that generate diagnostic dread, while B stays in a psychological abstraction without giving the reader a tangible thing to verify."
+            },
+            "winner": "A"
+          },
+          {
+            "archetype": "pattern_hunter",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 5,
+                "pull": 3
+              },
+              "b": {
+                "pain": 5,
+                "spec": 4,
+                "pull": 3
+              },
+              "winner": "B",
+              "why": "B wins on pain_recognition because it names the hidden social fear of being visibly wrong, which is more visceral than A's technical mismatch."
+            },
+            "winner": "B"
+          },
+          {
+            "archetype": "tired_scroller",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 5,
+                "pull": 2
+              },
+              "b": {
+                "pain": 2,
+                "spec": 1,
+                "pull": 1
+              },
+              "winner": "A",
+              "why": "Idea A names a specific, silent pain that engineers feel but rarely articulate, while Idea B is too abstract to land."
+            },
+            "winner": "A"
+          }
+        ]
+      }
+    ],
+    "grand_champion_pod": "pod_edge_case_debt",
+    "grand_champion_text": "The bug is rarely the dramatic outage. It is the silent mismatch between the account, the domain, the webhook, and the thing you thought you configured."
+  }
+}

@@ -1,65 +1,77 @@
 {
   "meta": {
-    "name": "Jay BIPU Content Idea Tournament",
-    "version": 1,
+    "name": "Jay BIPU Content Idea Tournament — History Round",
+    "version": 2,
     "framework": "6Ps of CopyTHINKING — Jay Yang (@Jayyanginspires)",
     "pain_first_rule": "An idea can only win by demonstrating the reader's pain more precisely than its opponent. Solution quality scores nothing until pain recognition scores.",
-    "provenance": "Pods seeded from Jay Yang's copywriting essay (docs/jay-yang-copywriting-article.md) and the live grader rubric."
+    "provenance": "Ideas synthesized from recent project themes in agent history and the Jay Yang copywriting essay. Raw private transcripts, credentials, and identifiers are not included.",
+    "round_label": "history_mined_2026-08-23"
   },
   "pods": [
     {
-      "id": "pod_time_pain",
-      "name": "Time Poverty",
-      "theme": "The reader is drowning in work-on-the-business debt",
+      "id": "pod_receipt_debt",
+      "name": "Receipt Debt",
+      "theme": "The work is real, but the claim has no inspectable artifact behind it",
       "ideas": [
-        "You don't have a time problem, you have a key-man problem: everything routes to you because you never built a process that survives your absence.",
-        "The 60-hour week isn't ambition, it's an unpriced subsidy you're paying to avoid trusting anyone else with the important parts.",
-        "You didn't buy back your time when revenue grew — you just started renting it out to more customers at the same hourly rate.",
-        "Busy is not a growth stage. It's what stagnation looks like from inside while the calendar stays full."
+        "Your thesis is not weak because people disagree with it; it is weak because the artifact that could let them check it does not exist yet.",
+        "A green status page is not proof of a working system. The receipt is the system's first honest sentence.",
+        "You keep polishing the claim because publishing the failed test would reveal whether there was ever a test underneath it.",
+        "The gap between what your README promises and what a stranger can run is where trust goes to die."
       ]
     },
     {
-      "id": "pod_plateau_pain",
-      "name": "The Plateau",
-      "theme": "Revenue flatlined and nobody can name the constraint",
+      "id": "pod_complexity_tax",
+      "name": "The Complexity Tax",
+      "theme": "The system feels costly to understand, but the cost has not been isolated or measured",
       "ideas": [
-        "Flat revenue for two quarters isn't a market condition. It's an unnamed bottleneck that everyone is quietly working around instead of naming.",
-        "You've optimized the wrong metric three quarters in a row because no one in the room will say which number actually gates growth.",
-        "Growth didn't stall. The thing that got you here ran out of runway, and 'work harder' was never the next lever.",
-        "Every business at $1-3M hits The Swamp: too busy to fix the business, too broke to hire the fix."
+        "You are calling it burnout because 'too many dependent states with no reset boundary' sounds less sympathetic and more expensive to investigate.",
+        "The hidden cost of a complex system is not that it has more parts; it is that one missing state can make every later decision look rational and still be wrong.",
+        "If complexity is real, changing the number of dependencies should change the receipt. Otherwise you have a metaphor, not a measurement.",
+        "The body keeps paying for information you never compressed because nobody can point to which state is safe to forget."
       ]
     },
     {
-      "id": "pod_invisible_pain",
-      "name": "Building Invisibly",
-      "theme": "Doing real work nobody sees, so nobody buys",
+      "id": "pod_bounded_autonomy",
+      "name": "The Autonomy Mirage",
+      "theme": "The agent appears capable until boundaries, permissions, and readback are tested",
       "ideas": [
-        "Your product isn't underperforming. Your explanation of it loses to worse products with better sentences.",
-        "You're not being ignored because the market is noisy. You're invisible because you describe features while your buyer is scanning for their own pain in your first line.",
-        "Nobody repeats what you said because you gave them nothing pointable — no number, no logo, no receipt they could forward.",
-        "The best-kept secret in your industry is still a secret. Secrecy doesn't read as humility to a buyer; it reads as risk."
+        "An agent that can click everything is not autonomous; it is unsupervised. Autonomy starts where the forbidden action is legible.",
+        "You do not need an agent that promises to handle the world. You need one that can say exactly what it touched and what it refused.",
+        "The demo is not the agent completing the happy path. The demo is the agent stopping at the boundary and leaving a receipt you can inspect.",
+        "If the agent's history cannot tell you why it acted, the system is not learning from work; it is accumulating anecdotes."
       ]
     },
     {
-      "id": "pod_trust_pain",
-      "name": "The Trust Deficit",
-      "theme": "Audience likes the content but won't hand over money",
+      "id": "pod_attribution_blindness",
+      "name": "Attribution Blindness",
+      "theme": "Attention, clicks, and payments arrive without enough provenance to know what caused them",
       "ideas": [
-        "Likes are not pre-orders. An audience that applauds but doesn't buy is telling you the proof layer is missing, not the promise.",
-        "They believe you're good. They don't believe you're good FOR THEM — proof that doesn't match the avatar reads as someone else's evidence.",
-        "'Trusted by industry leaders' converts nobody because trust needs a receipt, and adjectives aren't receipts.",
-        "You asked for the sale before you earned the belief. Belief without evidence is faith, and faith doesn't swipe a card."
+        "Traffic is not traction when you cannot tell which sentence moved the person or which path brought them there.",
+        "The sale did not disappear; your attribution disappeared first, and now every explanation is a story with a confidence interval you refuse to show.",
+        "A dashboard full of visits can still leave you blind if it cannot answer which pain the visitor recognized before they acted.",
+        "If your funnel records the conversion but not the path, you are measuring the ending and guessing at the mechanism."
       ]
     },
     {
-      "id": "pod_urgency_pain",
-      "name": "Someday Is A Plan",
-      "theme": "Reader keeps deferring the decision that would change things",
+      "id": "pod_edge_case_debt",
+      "name": "The Edge-Case Bill",
+      "theme": "The happy path works while operational failures accumulate outside the demo",
       "ideas": [
-        "The most dangerous line in your financial plan is the one that assumes your employer keeps paying you.",
-        "Cost of inaction compounds silently: every quarter on the current path prices you further out of the outcome you say you want.",
-        "There is no perfect time to start, only earlier and later — and later has a compounding interest rate you never see on the invoice.",
-        "Waiting for certainty is a decision too. It's the one where the window closes while you keep researching it."
+        "Your system did not fail suddenly; it failed in the one branch the demo never had to visit.",
+        "A deployment is not finished when the homepage returns 200. It is finished when the provider rejects a request and the user gets an honest next step.",
+        "The bug is rarely the dramatic outage. It is the silent mismatch between the account, the domain, the webhook, and the thing you thought you configured.",
+        "Every untested edge case is a future support conversation you are pre-paying with someone else's trust."
+      ]
+    },
+    {
+      "id": "pod_incomplete_information",
+      "name": "The Incomplete-Information Trap",
+      "theme": "The reader waits for certainty while the useful next experiment remains undone",
+      "ideas": [
+        "You are not waiting for more information; you are waiting for information that removes the risk of being visibly wrong.",
+        "A bounded experiment can teach you more than another week of research, but only if you decide what result would make you stop.",
+        "The cost of waiting is not time in the abstract. It is the evidence you could have collected before the next decision became expensive.",
+        "Start messy is not permission to improvise forever; it is a demand to ship the smallest falsifier before the story hardens."
       ]
     }
   ],
@@ -73,7 +85,7 @@
   "format": {
     "style": "single_elimination_per_pod_then_cross_pod_final",
     "round1": "Within each pod, ideas face off pairwise; winners advance.",
-    "final": "Pod champions meet in cross-pod bracket judged by all archetypes.",
+    "final": "Pod champions meet in cross-pod round-robin judged by all archetypes.",
     "scoring": "Each judge returns pain_recognition (0-5), specificity (0-5), action_pull (0-3). Pain recognition is weighted double and gates: if tied or losing on pain recognition, an idea cannot win regardless of other axes.",
     "tiebreak": "Higher pain_recognition, then higher specificity, then earlier seed order."
   }
