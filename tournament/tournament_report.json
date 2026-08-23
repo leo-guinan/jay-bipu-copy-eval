@@ -1,0 +1,2751 @@
+{
+  "meta": {
+    "name": "Jay BIPU Content Idea Tournament",
+    "version": 1,
+    "framework": "6Ps of CopyTHINKING \u2014 Jay Yang (@Jayyanginspires)",
+    "pain_first_rule": "An idea can only win by demonstrating the reader's pain more precisely than its opponent. Solution quality scores nothing until pain recognition scores.",
+    "provenance": "Pods seeded from Jay Yang's copywriting essay (docs/jay-yang-copywriting-article.md) and the live grader rubric."
+  },
+  "format": {
+    "style": "single_elimination_per_pod_then_cross_pod_final",
+    "round1": "Within each pod, ideas face off pairwise; winners advance.",
+    "final": "Pod champions meet in cross-pod bracket judged by all archetypes.",
+    "scoring": "Each judge returns pain_recognition (0-5), specificity (0-5), action_pull (0-3). Pain recognition is weighted double and gates: if tied or losing on pain recognition, an idea cannot win regardless of other axes.",
+    "tiebreak": "Higher pain_recognition, then higher specificity, then earlier seed order."
+  },
+  "pods": {
+    "pod_time_pain": {
+      "name": "Time Poverty",
+      "rounds": [
+        {
+          "round": 1,
+          "matches": [
+            {
+              "a_seed": 0,
+              "b_seed": 1,
+              "scores": {
+                "a": {
+                  "pain": 23,
+                  "spec": 24,
+                  "pull": 14
+                },
+                "b": {
+                  "pain": 22,
+                  "spec": 20,
+                  "pull": 12
+                }
+              },
+              "judges": [
+                {
+                  "archetype": "skim",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "Idea A directly names the structural bottleneck of being the single point of failure, which is a more acute and recognizable pain than the trust issue."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "busy_operator",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "Idea A directly names the core pain of being the bottleneck and offers a clear structural solution, while Idea B, though insightful, focuses on the symptom of long hours rather than the root cause of dependency."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "skeptical_buyer",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 5,
+                      "spec": 4,
+                      "pull": 3
+                    },
+                    "winner": "A",
+                    "why": "Both nail the pain of being the bottleneck, but A's 'key-man problem' is more pointable and directly suggests a fixable process gap, giving it higher specificity and total score."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "pattern_hunter",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 5,
+                      "spec": 4,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "B edges out on pain_recognition by naming the emotional guilt of generosity (unpriced subsidy) and avoidance, while A's pain is real but slightly more cognitive than visceral."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "tired_scroller",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "Both tie on pain recognition and total, but Idea A's reframe to a 'key-man problem' is more directly actionable for a tired leader."
+                  },
+                  "winner": "A"
+                }
+              ],
+              "winner_seed": 0
+            },
+            {
+              "a_seed": 2,
+              "b_seed": 3,
+              "scores": {
+                "a": {
+                  "pain": 23,
+                  "spec": 23,
+                  "pull": 13
+                },
+                "b": {
+                  "pain": 18,
+                  "spec": 18,
+                  "pull": 10
+                }
+              },
+              "judges": [
+                {
+                  "archetype": "skim",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "Idea A directly names the specific painful trap of continuing to trade time for money despite revenue growth, making it more visceral and actionable."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "busy_operator",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "Idea A precisely names the trap of trading time for money even as revenue grows, while Idea B is more abstract."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "skeptical_buyer",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 3,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "Idea A directly names the specific pain of still trading time for money despite revenue growth, using a concrete metaphor that proves understanding, while Idea B is more abstract and less pointable."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "pattern_hunter",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 3,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "Idea A pinpoints the specific pain of trading time for money at the same rate, while Idea B's insight is more generic."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "tired_scroller",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "Idea A nails the specific pain of trading time for money even after growth, while Idea B is more generic busyness."
+                  },
+                  "winner": "A"
+                }
+              ],
+              "winner_seed": 2
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "matches": [
+            {
+              "a_seed": 0,
+              "b_seed": 2,
+              "scores": {
+                "a": {
+                  "pain": 24,
+                  "spec": 23,
+                  "pull": 13
+                },
+                "b": {
+                  "pain": 21,
+                  "spec": 23,
+                  "pull": 13
+                }
+              },
+              "judges": [
+                {
+                  "archetype": "skim",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "B nails the specific, visceral pain of scaling without changing your pricing model, while A is a close second but generalizes into a process problem."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "busy_operator",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "A",
+                    "why": "Idea A directly names the owner's felt pain of being the bottleneck, while Idea B addresses a related but less visceral growth pain. Higher pain recognition overrides a tie in total scores."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "skeptical_buyer",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "Idea A wins because it directly reframes the reader's time problem into a more painful and specific key-man dependency, while Idea B, though insightful, addresses a more indirect pain of pricing inefficiency."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "pattern_hunter",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "A",
+                    "why": "Idea A directly names the visceral pain of being the single point of failure, which hits deeper than the time-money tradeoff in B."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "tired_scroller",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "Idea A nails the exact pain of being the bottleneck with a vivid, pointable image, while Idea B is clever but feels more like a math problem than a gut punch."
+                  },
+                  "winner": "A"
+                }
+              ],
+              "winner_seed": 0
+            }
+          ]
+        }
+      ],
+      "champion": {
+        "seed": 0,
+        "text": "You don't have a time problem, you have a key-man problem: everything routes to you because you never built a process that survives your absence."
+      }
+    },
+    "pod_plateau_pain": {
+      "name": "The Plateau",
+      "rounds": [
+        {
+          "round": 1,
+          "matches": [
+            {
+              "a_seed": 0,
+              "b_seed": 1,
+              "scores": {
+                "a": {
+                  "pain": 23,
+                  "spec": 20,
+                  "pull": 13
+                },
+                "b": {
+                  "pain": 23,
+                  "spec": 22,
+                  "pull": 14
+                }
+              },
+              "judges": [
+                {
+                  "archetype": "skim",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 5,
+                      "spec": 4,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "B names the specific, repeated pain of optimizing the wrong metric with a pointed culprit \u2014 the silent room \u2014 while A's unnamed bottleneck feels hazier."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "busy_operator",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 4,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "Idea B more precisely names the specific pain of wasted effort on irrelevant metrics, with concrete details (three quarters, wrong metric, gate number) that directly hit the owner's Tuesday afternoon reality."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "skeptical_buyer",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "B's pain is sharper because it names the specific, repeated failure of optimizing the wrong metric and the social silence around the real growth gate, making it more immediately recognizable and actionable."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "pattern_hunter",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 4,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "A",
+                    "why": "Idea A flips the reader's default self-serving narrative ('it's the market') into an uncomfortable internal truth ('we're silently avoiding the real bottleneck'), landing a deeper, more personal pain."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "tired_scroller",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 4,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "A names a specific, unnamed pain (the bottleneck everyone avoids) with concrete imagery, while B's pain is real but slightly more generic and less pointable."
+                  },
+                  "winner": "A"
+                }
+              ],
+              "winner_seed": 1
+            },
+            {
+              "a_seed": 2,
+              "b_seed": 3,
+              "scores": {
+                "a": {
+                  "pain": 19,
+                  "spec": 17,
+                  "pull": 11
+                },
+                "b": {
+                  "pain": 25,
+                  "spec": 25,
+                  "pull": 13
+                }
+              },
+              "judges": [
+                {
+                  "archetype": "skim",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "B pinpoints a concrete, relatable pain (too busy to fix, too broke to hire) that is instantly recognizable for $1-3M business owners, while A's insight is more abstract."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "busy_operator",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 2
+                    },
+                    "winner": "B",
+                    "why": "B's pain is more instantly recognizable to the overwhelmed $1-3M owner \u2014 'too busy to fix, too broke to hire' nails the exact swamp they're wading through, while A requires a conceptual pivot that slows recognition."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "skeptical_buyer",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 2
+                    },
+                    "winner": "B",
+                    "why": "Idea B precisely names the specific revenue range and the exact dilemma of being too busy and too broke, making it instantly recognizable to the target reader."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "pattern_hunter",
+                  "verdict": {
+                    "a": {
+                      "pain": 3,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "Idea B precisely names the painful trap of being too busy and too broke, while Idea A is more abstract about a stalled growth mechanism."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "tired_scroller",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "Idea B nails the exact felt pain of being stuck between too busy and too broke, while A is more abstract about a plateau."
+                  },
+                  "winner": "B"
+                }
+              ],
+              "winner_seed": 3
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "matches": [
+            {
+              "a_seed": 1,
+              "b_seed": 3,
+              "scores": {
+                "a": {
+                  "pain": 22,
+                  "spec": 22,
+                  "pull": 14
+                },
+                "b": {
+                  "pain": 23,
+                  "spec": 20,
+                  "pull": 14
+                }
+              },
+              "judges": [
+                {
+                  "archetype": "skim",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "B names a specific revenue range and a visceral, trapped feeling that trumps A's more abstract metric pain."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "busy_operator",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 5,
+                      "spec": 3,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "Idea B directly names the core felt pain of being stuck between too busy and too broke, which is the exact Tuesday afternoon feeling for a $1-3M owner."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "skeptical_buyer",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "B names a specific revenue range and a concrete, pointable trap (The Swamp) with a visceral contradiction, while A's pain is real but less universally felt and its proof is implied rather than demonstrated."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "pattern_hunter",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "Idea A nails a specific, painful pattern of misaligned metrics and silence, while B's swamp metaphor is more generic and less actionable."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "tired_scroller",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 3
+                    },
+                    "winner": "A",
+                    "why": "Idea A names a specific, painful, and concrete failure (wrong metric, no one speaking up) that hits harder than the generic 'too busy, too broke' swamp."
+                  },
+                  "winner": "A"
+                }
+              ],
+              "winner_seed": 3
+            }
+          ]
+        }
+      ],
+      "champion": {
+        "seed": 3,
+        "text": "Every business at $1-3M hits The Swamp: too busy to fix the business, too broke to hire the fix."
+      }
+    },
+    "pod_invisible_pain": {
+      "name": "Building Invisibly",
+      "rounds": [
+        {
+          "round": 1,
+          "matches": [
+            {
+              "a_seed": 0,
+              "b_seed": 1,
+              "scores": {
+                "a": {
+                  "pain": 21,
+                  "spec": 20,
+                  "pull": 15
+                },
+                "b": {
+                  "pain": 25,
+                  "spec": 25,
+                  "pull": 15
+                }
+              },
+              "judges": [
+                {
+                  "archetype": "skim",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 4,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "Both ideas recognize the pain equally, but Idea B is more specific about the exact mechanism (features vs. pain scanning) and thus has higher specificity, making it more actionable."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "busy_operator",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "B names the exact scanning-for-pain behavior that defines the Tuesday afternoon of a skimming owner, while A stays generic about 'explanation'."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "skeptical_buyer",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "B explicitly names the buyer's scanning behavior and the feature-pain mismatch, making it more actionable and specific."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "pattern_hunter",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "B nails the reader's hidden pain\u2014being invisible despite effort\u2014with a concrete, pointable cause (describing features instead of their pain), while A frames the problem more abstractly (bad explanation vs. better sentences)."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "tired_scroller",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "Idea B recognizes the reader's deeper pain of being invisible despite effort, not just having a bad explanation, and uses a more specific, actionable insight about scanning for pain in the first line."
+                  },
+                  "winner": "B"
+                }
+              ],
+              "winner_seed": 1
+            },
+            {
+              "a_seed": 2,
+              "b_seed": 3,
+              "scores": {
+                "a": {
+                  "pain": 22,
+                  "spec": 25,
+                  "pull": 15
+                },
+                "b": {
+                  "pain": 18,
+                  "spec": 13,
+                  "pull": 9
+                }
+              },
+              "judges": [
+                {
+                  "archetype": "skim",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 2,
+                      "spec": 2,
+                      "pull": 1
+                    },
+                    "winner": "A",
+                    "why": "A nails the reader's specific pain of being forgettable with concrete, pointable examples, while B stays abstract and generic."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "busy_operator",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "Idea A directly names the felt pain of not being repeated because nothing pointable exists, which is highly specific and actionable for a busy owner; Idea B's secrecy-risk angle is less immediate and less pointable."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "skeptical_buyer",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 3,
+                      "spec": 2,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "Idea A nails the specific, visceral pain of being unquotable with concrete examples (number, logo, receipt), while Idea B's 'secret as risk' is more abstract and less immediately actionable."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "pattern_hunter",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 5,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "winner": "B",
+                    "why": "B flips the belief that secrecy = humility into the painful truth that secrecy = risk, which is a sharper, more urgent pain than A's blunt clarity."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "tired_scroller",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "Idea A directly names the exact reason people don't repeat you, with concrete examples, while Idea B's pain is more abstract and less immediately felt by a tired scroller."
+                  },
+                  "winner": "A"
+                }
+              ],
+              "winner_seed": 2
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "matches": [
+            {
+              "a_seed": 1,
+              "b_seed": 2,
+              "scores": {
+                "a": {
+                  "pain": 24,
+                  "spec": 20,
+                  "pull": 13
+                },
+                "b": {
+                  "pain": 20,
+                  "spec": 24,
+                  "pull": 14
+                }
+              },
+              "judges": [
+                {
+                  "archetype": "skim",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 4,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "A",
+                    "why": "A directly names the core pain of being invisible and ties it to a specific, fixable mistake."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "busy_operator",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 4,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "A",
+                    "why": "Idea A names the exact pain of being invisible despite effort, while Idea B describes a symptom of that pain but doesn't hit the visceral feeling of being ignored."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "skeptical_buyer",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 3,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "A directly names the reader's felt pain of being ignored and pinpoints the specific cause\u2014describing features instead of the buyer's pain\u2014making it more accurate and actionable."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "pattern_hunter",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "Idea B offers more concrete, pointable specifics and a stronger call to act, while both equally recognize the reader's pain."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "tired_scroller",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 4,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "A",
+                    "why": "Idea A directly names the reader's frustration of being ignored and ties it to a specific, fixable mistake, while Idea B addresses a secondary symptom."
+                  },
+                  "winner": "A"
+                }
+              ],
+              "winner_seed": 1
+            }
+          ]
+        }
+      ],
+      "champion": {
+        "seed": 1,
+        "text": "You're not being ignored because the market is noisy. You're invisible because you describe features while your buyer is scanning for their own pain in your first line."
+      }
+    },
+    "pod_trust_pain": {
+      "name": "The Trust Deficit",
+      "rounds": [
+        {
+          "round": 1,
+          "matches": [
+            {
+              "a_seed": 0,
+              "b_seed": 1,
+              "scores": {
+                "a": {
+                  "pain": 23,
+                  "spec": 23,
+                  "pull": 12
+                },
+                "b": {
+                  "pain": 23,
+                  "spec": 24,
+                  "pull": 14
+                }
+              },
+              "judges": [
+                {
+                  "archetype": "skim",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 5,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "Higher pain recognition \u2014 the sting is sharper and more specific: the reader feels invisible even when praised, and that gap between generic belief and personal relevance is the actual gut-knot."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "busy_operator",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "A",
+                    "why": "Idea A immediately names the painful disconnect between engagement and sales with a memorable, actionable diagnosis, while Idea B is more diluted."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "skeptical_buyer",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "Both recognize the pain of proof not converting, but B is more specific and actionable, pointing to avatar mismatch."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "pattern_hunter",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "Idea A wins because it names the exact pain of hollow engagement with surgical specificity (likes \u2260 orders) and flips the belief from 'my offer is weak' to 'my proof is missing,' while Idea B's avatar-mismatch pain is real but less immediately visceral."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "tired_scroller",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "B names the exact, specific pain of proof that feels irrelevant to the reader, which is sharper and more actionable than A's generic applause-vs-sales insight."
+                  },
+                  "winner": "B"
+                }
+              ],
+              "winner_seed": 1
+            },
+            {
+              "a_seed": 2,
+              "b_seed": 3,
+              "scores": {
+                "a": {
+                  "pain": 23,
+                  "spec": 24,
+                  "pull": 10
+                },
+                "b": {
+                  "pain": 20,
+                  "spec": 19,
+                  "pull": 11
+                }
+              },
+              "judges": [
+                {
+                  "archetype": "skim",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "Idea A specifically calls out the empty claim 'trusted by industry leaders' and demands receipts, while Idea B is more generic about selling before earning belief."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "busy_operator",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "Idea B digs deeper into the owner's pain of failing to convert because belief was missing, with a concrete 'faith doesn't swipe a card' punch that demands action."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "skeptical_buyer",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "Idea A directly attacks the specific, commonly used but ineffective phrase 'Trusted by industry leaders,' providing a pointable target and higher pain recognition, while Idea B remains a general principle with less concrete evidence."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "pattern_hunter",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "A directly identifies a specific ineffective copy tactic and explains why it fails, which resonates with the reader's frustration of low conversion, while B is a more general principle."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "tired_scroller",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 5,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 3,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "Idea A directly names a specific, common copywriting mistake that causes reader distrust, while Idea B states a general principle."
+                  },
+                  "winner": "A"
+                }
+              ],
+              "winner_seed": 2
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "matches": [
+            {
+              "a_seed": 1,
+              "b_seed": 2,
+              "scores": {
+                "a": {
+                  "pain": 20,
+                  "spec": 18,
+                  "pull": 11
+                },
+                "b": {
+                  "pain": 19,
+                  "spec": 23,
+                  "pull": 13
+                }
+              },
+              "judges": [
+                {
+                  "archetype": "skim",
+                  "verdict": {
+                    "a": {
+                      "pain": 3,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "winner": "B",
+                    "why": "B names the specific receipt-less pain of empty adjectives and the felt failure of trust without proof, while A stays in generic positioning space."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "busy_operator",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 3,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "A",
+                    "why": "Idea A names the specific pain of having generic proof that doesn't match the prospect's avatar, which resonates deeply with a busy owner who hears that objection frequently."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "skeptical_buyer",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "A",
+                    "why": "Idea A nails the deeper pain that even real proof fails if it doesn't match the reader's avatar, which is a more acute skepticism than just attacking vague claims."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "pattern_hunter",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "IDEA B recognizes the sharper pain of vague trust claims failing to convert, with a concrete metaphor that demands a specific fix."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "tired_scroller",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 3,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "Idea A more directly addresses the reader's felt pain of not being seen as relevant to them personally, which is a deeper and more specific insight than the generic trust issue."
+                  },
+                  "winner": "A"
+                }
+              ],
+              "winner_seed": 1
+            }
+          ]
+        }
+      ],
+      "champion": {
+        "seed": 1,
+        "text": "They believe you're good. They don't believe you're good FOR THEM \u2014 proof that doesn't match the avatar reads as someone else's evidence."
+      }
+    },
+    "pod_urgency_pain": {
+      "name": "Someday Is A Plan",
+      "rounds": [
+        {
+          "round": 1,
+          "matches": [
+            {
+              "a_seed": 0,
+              "b_seed": 1,
+              "scores": {
+                "a": {
+                  "pain": 20,
+                  "spec": 20,
+                  "pull": 12
+                },
+                "b": {
+                  "pain": 18,
+                  "spec": 15,
+                  "pull": 11
+                }
+              },
+              "judges": [
+                {
+                  "archetype": "skim",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 3,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "A nails the specific, visceral pain of job dependency with a concrete, pointable danger, while B stays abstract and generic."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "busy_operator",
+                  "verdict": {
+                    "a": {
+                      "pain": 2,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "Idea B recognizes the silent pain of inaction and the compounding cost of delay, which directly hits the busy owner stuck between meetings and desired outcomes."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "skeptical_buyer",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "Idea A more sharply targets the specific fear of job loss, a concrete felt pain, while Idea B is more abstract."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "pattern_hunter",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "Idea A directly flips the common belief of job security, making the pain immediate and specific, while Idea B's compound cost is more abstract."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "tired_scroller",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 3,
+                      "spec": 2,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "Idea A wins because it names a specific, visceral fear (losing your paycheck) that any tired scroller feels instantly, while Idea B's abstract 'cost of inaction' requires too much work to connect to real pain."
+                  },
+                  "winner": "A"
+                }
+              ],
+              "winner_seed": 0
+            },
+            {
+              "a_seed": 2,
+              "b_seed": 3,
+              "scores": {
+                "a": {
+                  "pain": 21,
+                  "spec": 20,
+                  "pull": 13
+                },
+                "b": {
+                  "pain": 18,
+                  "spec": 17,
+                  "pull": 12
+                }
+              },
+              "judges": [
+                {
+                  "archetype": "skim",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 3,
+                      "spec": 2,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "A nails the felt pain of regret with a concrete, compound-interest metaphor that stings on first skim."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "busy_operator",
+                  "verdict": {
+                    "a": {
+                      "pain": 3,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "Idea B directly names the reader's pain of analysis paralysis and the concrete consequence of a closing window, making it more urgent and relatable."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "skeptical_buyer",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "Idea A nails the reader's pain of regret from delay with a vivid, unignorable 'compounding interest' metaphor that feels personal and financially concrete, while B's 'window closing' is more generic and less emotionally sharp."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "pattern_hunter",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 3
+                    },
+                    "winner": "A",
+                    "why": "Idea A uses a powerful, unignorable metaphor (compounding interest) to make the hidden cost of delay painfully tangible, while Idea B's insight is strong but less visceral."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "tired_scroller",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 3,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "Idea A's metaphor of hidden compounding interest on delay more powerfully recognizes the pain of procrastination than B's generic window-closing warning."
+                  },
+                  "winner": "A"
+                }
+              ],
+              "winner_seed": 2
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "matches": [
+            {
+              "a_seed": 0,
+              "b_seed": 2,
+              "scores": {
+                "a": {
+                  "pain": 22,
+                  "spec": 20,
+                  "pull": 14
+                },
+                "b": {
+                  "pain": 18,
+                  "spec": 17,
+                  "pull": 12
+                }
+              },
+              "judges": [
+                {
+                  "archetype": "skim",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 4,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "winner": "A",
+                    "why": "Idea A's pain recognition of job loss vulnerability is more acute and immediate than Idea B's procrastination regret, thus claiming victory."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "busy_operator",
+                  "verdict": {
+                    "a": {
+                      "pain": 3,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 3
+                    },
+                    "winner": "B",
+                    "why": "Idea B directly addresses the owner's pain of procrastination with a concrete, memorable metaphor, while Idea A's employer framing may not resonate with an owner."
+                  },
+                  "winner": "B"
+                },
+                {
+                  "archetype": "skeptical_buyer",
+                  "verdict": {
+                    "a": {
+                      "pain": 4,
+                      "spec": 4,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 4,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "Both recognize the same pain of income dependency, but A is concretely pointable (that line in your plan) and more actionable, while B leans on metaphor and vague generality."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "pattern_hunter",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 4,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 3,
+                      "spec": 3,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "Idea A directly targets the visceral fear of income loss, a more immediate and painful assumption than the abstract cost of delay."
+                  },
+                  "winner": "A"
+                },
+                {
+                  "archetype": "tired_scroller",
+                  "verdict": {
+                    "a": {
+                      "pain": 5,
+                      "spec": 5,
+                      "pull": 3
+                    },
+                    "b": {
+                      "pain": 3,
+                      "spec": 2,
+                      "pull": 2
+                    },
+                    "winner": "A",
+                    "why": "A\u76f4\u63a5\u70b9\u51fa\u8bfb\u8005\u5bf9\u7a33\u5b9a\u6536\u5165\u7684\u9519\u8bef\u5047\u8bbe\uff0c\u75bc\u75db\u5177\u4f53\u4e14\u7d27\u8feb\uff0c\u800cB\u7684\u62d6\u5ef6\u75bc\u75db\u8f83\u62bd\u8c61\u4e14\u4e0d\u591f\u5c16\u9510\u3002"
+                  },
+                  "winner": "A"
+                }
+              ],
+              "winner_seed": 0
+            }
+          ]
+        }
+      ],
+      "champion": {
+        "seed": 0,
+        "text": "The most dangerous line in your financial plan is the one that assumes your employer keeps paying you."
+      }
+    }
+  },
+  "final": {
+    "points": {
+      "pod_time_pain": 4,
+      "pod_plateau_pain": 3,
+      "pod_invisible_pain": 1,
+      "pod_trust_pain": 0,
+      "pod_urgency_pain": 2
+    },
+    "matchups": [
+      {
+        "vs": [
+          "pod_time_pain",
+          "pod_plateau_pain"
+        ],
+        "winner": "pod_time_pain",
+        "judges": [
+          {
+            "archetype": "skim",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 3,
+                "pull": 2
+              },
+              "b": {
+                "pain": 5,
+                "spec": 4,
+                "pull": 3
+              },
+              "winner": "B",
+              "why": "B names the exact felt revenue trap with a vivid, pointable metaphor, while A's 'key-man problem' is more conceptual and less visceral for a scrolling reader."
+            },
+            "winner": "B"
+          },
+          {
+            "archetype": "busy_operator",
+            "verdict": {
+              "a": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "b": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 3
+              },
+              "winner": "A",
+              "why": "Idea A directly names the key-man problem, which is the deeper pain behind the owner's time scarcity, while Idea B describes the symptom (swamp) but doesn't hit the root cause as precisely."
+            },
+            "winner": "A"
+          },
+          {
+            "archetype": "skeptical_buyer",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 3
+              },
+              "b": {
+                "pain": 5,
+                "spec": 4,
+                "pull": 3
+              },
+              "winner": "B",
+              "why": "B names a specific revenue bracket and a concrete trapped feeling (too busy to fix, too broke to hire) that is pointable and visceral, while A's 'key-man problem' is real but less universally felt at that exact stage."
+            },
+            "winner": "B"
+          },
+          {
+            "archetype": "pattern_hunter",
+            "verdict": {
+              "a": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "b": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 2
+              },
+              "winner": "A",
+              "why": "A exposes a deeper, often unarticulated pain (key-man dependency) rather than the surface symptoms of time and money struggles, making it more resonant and actionable."
+            },
+            "winner": "A"
+          },
+          {
+            "archetype": "tired_scroller",
+            "verdict": {
+              "a": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "b": {
+                "pain": 4,
+                "spec": 5,
+                "pull": 3
+              },
+              "winner": "A",
+              "why": "Idea A directly reframes the reader's exhaustion as a structural key-man problem, offering a clear diagnosis that feels more personally accurate than the generic swamp metaphor."
+            },
+            "winner": "A"
+          }
+        ]
+      },
+      {
+        "vs": [
+          "pod_time_pain",
+          "pod_invisible_pain"
+        ],
+        "winner": "pod_time_pain",
+        "judges": [
+          {
+            "archetype": "skim",
+            "verdict": {
+              "a": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "b": {
+                "pain": 4,
+                "spec": 3,
+                "pull": 2
+              },
+              "winner": "A",
+              "why": "Idea A directly names the specific, painful bottleneck of being the indispensable bottleneck, making the reader instantly recognize their own situation."
+            },
+            "winner": "A"
+          },
+          {
+            "archetype": "busy_operator",
+            "verdict": {
+              "a": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "b": {
+                "pain": 3,
+                "spec": 4,
+                "pull": 2
+              },
+              "winner": "A",
+              "why": "Idea A nails the owner's felt pain of being the bottleneck, while Idea B addresses a different pain (marketing invisibility) that doesn't match the 'Tuesday afternoon' of an overwhelmed owner."
+            },
+            "winner": "A"
+          },
+          {
+            "archetype": "skeptical_buyer",
+            "verdict": {
+              "a": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "b": {
+                "pain": 4,
+                "spec": 5,
+                "pull": 3
+              },
+              "winner": "A",
+              "why": "Idea A directly names the reader's core operational bottleneck as a 'key-man problem', a concrete and painful reframe that demands a solution, while Idea B addresses a secondary marketing pain."
+            },
+            "winner": "A"
+          },
+          {
+            "archetype": "pattern_hunter",
+            "verdict": {
+              "a": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "b": {
+                "pain": 5,
+                "spec": 4,
+                "pull": 3
+              },
+              "winner": "A",
+              "why": "Both recognize pain equally well, but Idea A is more specific about the structural process failure, making it more actionable and memorable."
+            },
+            "winner": "A"
+          },
+          {
+            "archetype": "tired_scroller",
+            "verdict": {
+              "a": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "b": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 3
+              },
+              "winner": "A",
+              "why": "Idea A lands the felt pain of being an irreplaceable bottleneck more viscerally than Idea B's marketing frustration."
+            },
+            "winner": "A"
+          }
+        ]
+      },
+      {
+        "vs": [
+          "pod_time_pain",
+          "pod_trust_pain"
+        ],
+        "winner": "pod_time_pain",
+        "judges": [
+          {
+            "archetype": "skim",
+            "verdict": {
+              "a": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "b": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 3
+              },
+              "winner": "A",
+              "why": "Idea A directly names the reader's core pain of being the bottleneck and reframes it as a solvable structural problem, while Idea B addresses a related but less urgent pain of proof mismatch."
+            },
+            "winner": "A"
+          },
+          {
+            "archetype": "busy_operator",
+            "verdict": {
+              "a": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "b": {
+                "pain": 3,
+                "spec": 4,
+                "pull": 2
+              },
+              "winner": "A",
+              "why": "Idea A directly names the core pain of being the single point of failure, which is far more visceral for a skimming owner than a generic proof-of-value mismatch."
+            },
+            "winner": "A"
+          },
+          {
+            "archetype": "skeptical_buyer",
+            "verdict": {
+              "a": {
+                "pain": 5,
+                "spec": 4,
+                "pull": 2
+              },
+              "b": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 2
+              },
+              "winner": "A",
+              "why": "Idea A hits a deeper, more visceral pain of being the bottleneck with a memorable reframe, earning higher pain_recognition and thus the win."
+            },
+            "winner": "A"
+          },
+          {
+            "archetype": "pattern_hunter",
+            "verdict": {
+              "a": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "b": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 2
+              },
+              "winner": "A",
+              "why": "Idea A hits the exact pain of the overwhelmed bottleneck and flips the belief more sharply."
+            },
+            "winner": "A"
+          },
+          {
+            "archetype": "tired_scroller",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 2
+              },
+              "b": {
+                "pain": 3,
+                "spec": 3,
+                "pull": 2
+              },
+              "winner": "A",
+              "why": "A nails the specific, visceral pain of being the bottleneck with a concrete image, while B's pain is more abstract and requires work to decode."
+            },
+            "winner": "A"
+          }
+        ]
+      },
+      {
+        "vs": [
+          "pod_time_pain",
+          "pod_urgency_pain"
+        ],
+        "winner": "pod_time_pain",
+        "judges": [
+          {
+            "archetype": "skim",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 3
+              },
+              "b": {
+                "pain": 5,
+                "spec": 4,
+                "pull": 3
+              },
+              "winner": "B",
+              "why": "Idea B's pain of job insecurity is more visceral and immediate than Idea A's operational bottleneck, so B wins on pain_recognition."
+            },
+            "winner": "B"
+          },
+          {
+            "archetype": "busy_operator",
+            "verdict": {
+              "a": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "b": {
+                "pain": 1,
+                "spec": 4,
+                "pull": 2
+              },
+              "winner": "A",
+              "why": "Idea A directly names the owner's felt pain of being the bottleneck, while Idea B addresses employee income risk irrelevant to an owner."
+            },
+            "winner": "A"
+          },
+          {
+            "archetype": "skeptical_buyer",
+            "verdict": {
+              "a": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "b": {
+                "pain": 4,
+                "spec": 3,
+                "pull": 2
+              },
+              "winner": "A",
+              "why": "A pins a precise, visceral bottleneck \u2014 your personal indispensability \u2014 while B names a common worry without the same sharp, actionable diagnosis."
+            },
+            "winner": "A"
+          },
+          {
+            "archetype": "pattern_hunter",
+            "verdict": {
+              "a": {
+                "pain": 5,
+                "spec": 4,
+                "pull": 3
+              },
+              "b": {
+                "pain": 3,
+                "spec": 4,
+                "pull": 2
+              },
+              "winner": "A",
+              "why": "Idea A directly targets the deep pain of being a bottleneck in your own business, while Idea B addresses a more generic job security concern that may not resonate with the same reader."
+            },
+            "winner": "A"
+          },
+          {
+            "archetype": "tired_scroller",
+            "verdict": {
+              "a": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "b": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 3
+              },
+              "winner": "A",
+              "why": "Idea A directly names the exhausting reality of being the single point of failure, while Idea B, though important, addresses a future risk rather than the current felt pain."
+            },
+            "winner": "A"
+          }
+        ]
+      },
+      {
+        "vs": [
+          "pod_plateau_pain",
+          "pod_invisible_pain"
+        ],
+        "winner": "pod_plateau_pain",
+        "judges": [
+          {
+            "archetype": "skim",
+            "verdict": {
+              "a": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "b": {
+                "pain": 5,
+                "spec": 4,
+                "pull": 3
+              },
+              "winner": "A",
+              "why": "Idea A's 'The Swamp' metaphor and specific revenue range create a more memorable and targeted pain point, while Idea B's insight is strong but slightly less concrete."
+            },
+            "winner": "A"
+          },
+          {
+            "archetype": "busy_operator",
+            "verdict": {
+              "a": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "b": {
+                "pain": 3,
+                "spec": 4,
+                "pull": 2
+              },
+              "winner": "A",
+              "why": "Idea A directly names the exact pain of being stuck between too busy and too broke, which is the core felt pain for a $1-3M owner, while Idea B addresses a secondary marketing pain."
+            },
+            "winner": "A"
+          },
+          {
+            "archetype": "skeptical_buyer",
+            "verdict": {
+              "a": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "b": {
+                "pain": 3,
+                "spec": 3,
+                "pull": 2
+              },
+              "winner": "A",
+              "why": "Idea A directly names a concrete, universally felt pain for $1-3M business owners (stuck, broke, busy), while Idea B only addresses a secondary marketing tactical issue, making A's pain recognition decisively higher."
+            },
+            "winner": "A"
+          },
+          {
+            "archetype": "pattern_hunter",
+            "verdict": {
+              "a": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "b": {
+                "pain": 5,
+                "spec": 4,
+                "pull": 3
+              },
+              "winner": "A",
+              "why": "A uses a vivid metaphor (The Swamp) and quantitative anchoring ($1-3M) to name a precise, visceral double-bind, making the pain feel both more recognizable and more pointable."
+            },
+            "winner": "A"
+          },
+          {
+            "archetype": "tired_scroller",
+            "verdict": {
+              "a": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 2
+              },
+              "b": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 3
+              },
+              "winner": "A",
+              "why": "Idea A nails the specific, visceral pain of being stuck in a revenue range with a memorable metaphor, while Idea B's insight is more generic and less pointable."
+            },
+            "winner": "A"
+          }
+        ]
+      },
+      {
+        "vs": [
+          "pod_plateau_pain",
+          "pod_trust_pain"
+        ],
+        "winner": "pod_plateau_pain",
+        "judges": [
+          {
+            "archetype": "skim",
+            "verdict": {
+              "a": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "b": {
+                "pain": 3,
+                "spec": 3,
+                "pull": 2
+              },
+              "winner": "A",
+              "why": "Idea A nails a concrete, relatable pain with specific numbers and a vivid metaphor, while Idea B's pain is more abstract and less immediately felt."
+            },
+            "winner": "A"
+          },
+          {
+            "archetype": "busy_operator",
+            "verdict": {
+              "a": {
+                "pain": 5,
+                "spec": 4,
+                "pull": 3
+              },
+              "b": {
+                "pain": 3,
+                "spec": 3,
+                "pull": 2
+              },
+              "winner": "A",
+              "why": "Idea A directly names the specific pain of being stuck between busy and broke, which matches the reader's Tuesday afternoon feeling."
+            },
+            "winner": "A"
+          },
+          {
+            "archetype": "skeptical_buyer",
+            "verdict": {
+              "a": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "b": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 2
+              },
+              "winner": "A",
+              "why": "Idea A names a specific, visceral trap (The Swamp) with a concrete revenue range and a clear double bind, making the pain instantly recognizable and urgent."
+            },
+            "winner": "A"
+          },
+          {
+            "archetype": "pattern_hunter",
+            "verdict": {
+              "a": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "b": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 2
+              },
+              "winner": "A",
+              "why": "Idea A's 'Swamp' directly names the visceral double-bind pain of being too busy and too broke, which is more immediately felt than B's nuanced trust gap."
+            },
+            "winner": "A"
+          },
+          {
+            "archetype": "tired_scroller",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 3
+              },
+              "b": {
+                "pain": 3,
+                "spec": 3,
+                "pull": 2
+              },
+              "winner": "A",
+              "why": "A names a specific, visceral pain (swamped at $1-3M) that requires zero decoding, while B's avatar mismatch is more abstract and less immediately felt."
+            },
+            "winner": "A"
+          }
+        ]
+      },
+      {
+        "vs": [
+          "pod_plateau_pain",
+          "pod_urgency_pain"
+        ],
+        "winner": "pod_plateau_pain",
+        "judges": [
+          {
+            "archetype": "skim",
+            "verdict": {
+              "a": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "b": {
+                "pain": 3,
+                "spec": 4,
+                "pull": 2
+              },
+              "winner": "A",
+              "why": "Idea A's 'Swamp' is a precise, visceral pain for $1-3M business owners, while Idea B's employer dependence is a more diffuse fear for the same reader."
+            },
+            "winner": "A"
+          },
+          {
+            "archetype": "busy_operator",
+            "verdict": {
+              "a": {
+                "pain": 5,
+                "spec": 4,
+                "pull": 3
+              },
+              "b": {
+                "pain": 1,
+                "spec": 2,
+                "pull": 1
+              },
+              "winner": "A",
+              "why": "Idea A directly names the founder's core pain of being trapped between operational chaos and financial constraints, while Idea B addresses a salaried employee's concern, missing the reader's actual identity."
+            },
+            "winner": "A"
+          },
+          {
+            "archetype": "skeptical_buyer",
+            "verdict": {
+              "a": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 2
+              },
+              "b": {
+                "pain": 3,
+                "spec": 3,
+                "pull": 2
+              },
+              "winner": "A",
+              "why": "Idea A nails the specific, verifiable pain of $1-3M businesses stuck in The Swamp, while B's fear-of-job-loss is too generic."
+            },
+            "winner": "A"
+          },
+          {
+            "archetype": "pattern_hunter",
+            "verdict": {
+              "a": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "b": {
+                "pain": 3,
+                "spec": 4,
+                "pull": 2
+              },
+              "winner": "A",
+              "why": "Idea A directly names the specific pain of being stuck in the middle of business growth, making it instantly recognizable to business owners, while Idea B's pain is more generic and less urgent for that same audience."
+            },
+            "winner": "A"
+          },
+          {
+            "archetype": "tired_scroller",
+            "verdict": {
+              "a": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "b": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 2
+              },
+              "winner": "A",
+              "why": "A nails the exact, visceral swamp feeling of being stuck between busy and broke, while B's pain is real but more abstract and less immediately pointable."
+            },
+            "winner": "A"
+          }
+        ]
+      },
+      {
+        "vs": [
+          "pod_invisible_pain",
+          "pod_trust_pain"
+        ],
+        "winner": "pod_invisible_pain",
+        "judges": [
+          {
+            "archetype": "skim",
+            "verdict": {
+              "a": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "b": {
+                "pain": 4,
+                "spec": 5,
+                "pull": 3
+              },
+              "winner": "A",
+              "why": "Idea A more directly names the reader's misattributed pain of being ignored due to market noise, making it feel more personally recognized."
+            },
+            "winner": "A"
+          },
+          {
+            "archetype": "busy_operator",
+            "verdict": {
+              "a": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "b": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 2
+              },
+              "winner": "A",
+              "why": "Idea A names the pain of being invisible despite effort with a concrete, actionable cause, which is more urgent and recognizable for a busy owner than Idea B's more nuanced avatar mismatch."
+            },
+            "winner": "A"
+          },
+          {
+            "archetype": "skeptical_buyer",
+            "verdict": {
+              "a": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "b": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 2
+              },
+              "winner": "A",
+              "why": "Idea A directly names the specific pain of being invisible due to feature-focused writing, with a concrete, pointable mistake in the first line, while Idea B's pain is slightly less acute and its specificity less immediate."
+            },
+            "winner": "A"
+          },
+          {
+            "archetype": "pattern_hunter",
+            "verdict": {
+              "a": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "b": {
+                "pain": 4,
+                "spec": 5,
+                "pull": 3
+              },
+              "winner": "A",
+              "why": "Idea A's pain of invisibility is more visceral and universally felt than Idea B's nuanced mismatch, giving it a higher pain_recognition score."
+            },
+            "winner": "A"
+          },
+          {
+            "archetype": "tired_scroller",
+            "verdict": {
+              "a": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "b": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 3
+              },
+              "winner": "A",
+              "why": "Idea A directly names the core pain of being invisible due to feature-focused writing, which resonates immediately with a tired scroller, while Idea B, though valid, requires a moment of interpretation."
+            },
+            "winner": "A"
+          }
+        ]
+      },
+      {
+        "vs": [
+          "pod_invisible_pain",
+          "pod_urgency_pain"
+        ],
+        "winner": "pod_urgency_pain",
+        "judges": [
+          {
+            "archetype": "skim",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 2
+              },
+              "b": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "winner": "B",
+              "why": "Idea B hits a deeper, more visceral fear with a concrete, actionable danger that demands immediate attention."
+            },
+            "winner": "B"
+          },
+          {
+            "archetype": "busy_operator",
+            "verdict": {
+              "a": {
+                "pain": 3,
+                "spec": 4,
+                "pull": 2
+              },
+              "b": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "winner": "B",
+              "why": "Idea B names the exact anxious thought a busy owner has while skimming\u2014the hidden risk in their own income stream\u2014while Idea A only addresses a generic marketing frustration."
+            },
+            "winner": "B"
+          },
+          {
+            "archetype": "skeptical_buyer",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 2
+              },
+              "b": {
+                "pain": 3,
+                "spec": 3,
+                "pull": 2
+              },
+              "winner": "A",
+              "why": "Idea A names the specific, visceral pain of being invisible despite effort, with a pointable mechanism (feature-dumping vs. pain-scanning), while Idea B's 'dangerous assumption' is real but more abstract and less immediately felt."
+            },
+            "winner": "A"
+          },
+          {
+            "archetype": "pattern_hunter",
+            "verdict": {
+              "a": {
+                "pain": 5,
+                "spec": 4,
+                "pull": 3
+              },
+              "b": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 2
+              },
+              "winner": "A",
+              "why": "Idea A nails the exact felt pain of being ignored despite effort, flips the belief from 'noisy market' to 'wrong message,' and pulls action by pinpointing the first-line scanning behavior."
+            },
+            "winner": "A"
+          },
+          {
+            "archetype": "tired_scroller",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 2
+              },
+              "b": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "winner": "B",
+              "why": "Idea B lands a sharper, more universal pain\u2014job security\u2014that a tired reader feels instantly, while Idea A's pain of being invisible in marketing requires more context to resonate."
+            },
+            "winner": "B"
+          }
+        ]
+      },
+      {
+        "vs": [
+          "pod_trust_pain",
+          "pod_urgency_pain"
+        ],
+        "winner": "pod_urgency_pain",
+        "judges": [
+          {
+            "archetype": "skim",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 3,
+                "pull": 2
+              },
+              "b": {
+                "pain": 5,
+                "spec": 4,
+                "pull": 3
+              },
+              "winner": "B",
+              "why": "B's pain of assumed salary continuity is sharper, more specific, and more urgent than A's generic avatar mismatch."
+            },
+            "winner": "B"
+          },
+          {
+            "archetype": "busy_operator",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 3,
+                "pull": 2
+              },
+              "b": {
+                "pain": 2,
+                "spec": 4,
+                "pull": 3
+              },
+              "winner": "A",
+              "why": "Idea A directly names the owner's pain of being offered generic proof that doesn't fit their specific situation, while Idea B targets a different pain less relevant to an owner."
+            },
+            "winner": "A"
+          },
+          {
+            "archetype": "skeptical_buyer",
+            "verdict": {
+              "a": {
+                "pain": 3,
+                "spec": 2,
+                "pull": 2
+              },
+              "b": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "winner": "B",
+              "why": "Idea B directly addresses the visceral fear of job loss with a concrete, pointable flaw in financial planning, while Idea A's pain is more abstract and niche."
+            },
+            "winner": "B"
+          },
+          {
+            "archetype": "pattern_hunter",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 2
+              },
+              "b": {
+                "pain": 4,
+                "spec": 5,
+                "pull": 3
+              },
+              "winner": "A",
+              "why": "Though B has higher total and specificity, A recognizes the deeper, more specific pain of being seen as generically competent yet never truly chosen, which the reader feels acutely as invisible mismatch."
+            },
+            "winner": "A"
+          },
+          {
+            "archetype": "tired_scroller",
+            "verdict": {
+              "a": {
+                "pain": 4,
+                "spec": 4,
+                "pull": 2
+              },
+              "b": {
+                "pain": 5,
+                "spec": 5,
+                "pull": 3
+              },
+              "winner": "B",
+              "why": "B nails the specific, visceral fear of job loss that keeps people up at night, while A's pain is more abstract and requires work to connect."
+            },
+            "winner": "B"
+          }
+        ]
+      }
+    ],
+    "grand_champion_pod": "pod_time_pain",
+    "grand_champion_text": "You don't have a time problem, you have a key-man problem: everything routes to you because you never built a process that survives your absence."
+  }
+}

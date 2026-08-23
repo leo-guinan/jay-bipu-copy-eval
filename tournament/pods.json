@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "name": "Jay BIPU Content Idea Tournament",
+    "version": 1,
+    "framework": "6Ps of CopyTHINKING — Jay Yang (@Jayyanginspires)",
+    "pain_first_rule": "An idea can only win by demonstrating the reader's pain more precisely than its opponent. Solution quality scores nothing until pain recognition scores.",
+    "provenance": "Pods seeded from Jay Yang's copywriting essay (docs/jay-yang-copywriting-article.md) and the live grader rubric."
+  },
+  "pods": [
+    {
+      "id": "pod_time_pain",
+      "name": "Time Poverty",
+      "theme": "The reader is drowning in work-on-the-business debt",
+      "ideas": [
+        "You don't have a time problem, you have a key-man problem: everything routes to you because you never built a process that survives your absence.",
+        "The 60-hour week isn't ambition, it's an unpriced subsidy you're paying to avoid trusting anyone else with the important parts.",
+        "You didn't buy back your time when revenue grew — you just started renting it out to more customers at the same hourly rate.",
+        "Busy is not a growth stage. It's what stagnation looks like from inside while the calendar stays full."
+      ]
+    },
+    {
+      "id": "pod_plateau_pain",
+      "name": "The Plateau",
+      "theme": "Revenue flatlined and nobody can name the constraint",
+      "ideas": [
+        "Flat revenue for two quarters isn't a market condition. It's an unnamed bottleneck that everyone is quietly working around instead of naming.",
+        "You've optimized the wrong metric three quarters in a row because no one in the room will say which number actually gates growth.",
+        "Growth didn't stall. The thing that got you here ran out of runway, and 'work harder' was never the next lever.",
+        "Every business at $1-3M hits The Swamp: too busy to fix the business, too broke to hire the fix."
+      ]
+    },
+    {
+      "id": "pod_invisible_pain",
+      "name": "Building Invisibly",
+      "theme": "Doing real work nobody sees, so nobody buys",
+      "ideas": [
+        "Your product isn't underperforming. Your explanation of it loses to worse products with better sentences.",
+        "You're not being ignored because the market is noisy. You're invisible because you describe features while your buyer is scanning for their own pain in your first line.",
+        "Nobody repeats what you said because you gave them nothing pointable — no number, no logo, no receipt they could forward.",
+        "The best-kept secret in your industry is still a secret. Secrecy doesn't read as humility to a buyer; it reads as risk."
+      ]
+    },
+    {
+      "id": "pod_trust_pain",
+      "name": "The Trust Deficit",
+      "theme": "Audience likes the content but won't hand over money",
+      "ideas": [
+        "Likes are not pre-orders. An audience that applauds but doesn't buy is telling you the proof layer is missing, not the promise.",
+        "They believe you're good. They don't believe you're good FOR THEM — proof that doesn't match the avatar reads as someone else's evidence.",
+        "'Trusted by industry leaders' converts nobody because trust needs a receipt, and adjectives aren't receipts.",
+        "You asked for the sale before you earned the belief. Belief without evidence is faith, and faith doesn't swipe a card."
+      ]
+    },
+    {
+      "id": "pod_urgency_pain",
+      "name": "Someday Is A Plan",
+      "theme": "Reader keeps deferring the decision that would change things",
+      "ideas": [
+        "The most dangerous line in your financial plan is the one that assumes your employer keeps paying you.",
+        "Cost of inaction compounds silently: every quarter on the current path prices you further out of the outcome you say you want.",
+        "There is no perfect time to start, only earlier and later — and later has a compounding interest rate you never see on the invoice.",
+        "Waiting for certainty is a decision too. It's the one where the window closes while you keep researching it."
+      ]
+    }
+  ],
+  "judge_archetypes": [
+    {"id": "skim", "name": "The Skimmer", "attentiveness": "low", "problem_shape": "hook_only", "note": "3-second scroll test: only the first line and the felt punch register."},
+    {"id": "busy_operator", "name": "The Busy Operator", "attentiveness": "medium", "problem_shape": "pain_match", "note": "$1-3M owner skimming between meetings: does this name MY Tuesday afternoon?"},
+    {"id": "skeptical_buyer", "name": "The Skeptical Buyer", "attentiveness": "high", "problem_shape": "proof_stress", "note": "Wants receipts. Attacks unsupported claims. Rewards pointable evidence."},
+    {"id": "pattern_hunter", "name": "The Pattern Hunter", "attentiveness": "high", "problem_shape": "belief_flip", "note": "Rewards the Everyone-thinks-X / Problem-is-Y / Solution-is-Z structure."},
+    {"id": "tired_scroller", "name": "The Tired Scroller", "attentiveness": "low", "problem_shape": "clarity_gate", "note": "Reading at 3rd-grade level after a long day: anything requiring work is a loss."}
+  ],
+  "format": {
+    "style": "single_elimination_per_pod_then_cross_pod_final",
+    "round1": "Within each pod, ideas face off pairwise; winners advance.",
+    "final": "Pod champions meet in cross-pod bracket judged by all archetypes.",
+    "scoring": "Each judge returns pain_recognition (0-5), specificity (0-5), action_pull (0-3). Pain recognition is weighted double and gates: if tied or losing on pain recognition, an idea cannot win regardless of other axes.",
+    "tiebreak": "Higher pain_recognition, then higher specificity, then earlier seed order."
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "name": "Jay BIPU Content Idea Tournament",
+    "version": 1,
+    "framework": "6Ps of CopyTHINKING \u2014 Jay Yang (@Jayyanginspires)",
+    "pain_first_rule": "An idea can only win by demonstrating the reader's pain more precisely than its opponent. Solution quality scores nothing until pain recognition scores.",
+    "provenance": "Pods seeded from Jay Yang's copywriting essay (docs/jay-yang-copywriting-article.md) and the live grader rubric."
+  },
+  "format": {
+    "style": "single_elimination_per_pod_then_cross_pod_final",
+    "round1": "Within each pod, ideas face off pairwise; winners advance.",
+    "final": "Pod champions meet in cross-pod bracket judged by all archetypes.",
+    "scoring": "Each judge returns pain_recognition (0-5), specificity (0-5), action_pull (0-3). Pain recognition is weighted double and gates: if tied or losing on pain recognition, an idea cannot win regardless of other axes.",
+    "tiebreak": "Higher pain_recognition, then higher specificity, then earlier seed order."
+  },
+  "pods": {
+    "pod_time_pain": {
+      "name": "Time Poverty",
+      "rounds": [
+        {
+          "round": 1,
+          "matches": []
+        },
+        {
+          "round": 2,
+          "matches": []
+        }
+      ],
+      "champion": {
+        "seed": 0,
+        "text": "You don't have a time problem, you have a key-man problem: everything routes to you because you never built a process that survives your absence."
+      }
+    },
+    "pod_plateau_pain": {
+      "name": "The Plateau",
+      "rounds": [
+        {
+          "round": 1,
+          "matches": []
+        },
+        {
+          "round": 2,
+          "matches": []
+        }
+      ],
+      "champion": {
+        "seed": 0,
+        "text": "Flat revenue for two quarters isn't a market condition. It's an unnamed bottleneck that everyone is quietly working around instead of naming."
+      }
+    },
+    "pod_invisible_pain": {
+      "name": "Building Invisibly",
+      "rounds": [
+        {
+          "round": 1,
+          "matches": []
+        },
+        {
+          "round": 2,
+          "matches": []
+        }
+      ],
+      "champion": {
+        "seed": 0,
+        "text": "Your product isn't underperforming. Your explanation of it loses to worse products with better sentences."
+      }
+    },
+    "pod_trust_pain": {
+      "name": "The Trust Deficit",
+      "rounds": [
+        {
+          "round": 1,
+          "matches": []
+        },
+        {
+          "round": 2,
+          "matches": []
+        }
+      ],
+      "champion": {
+        "seed": 0,
+        "text": "Likes are not pre-orders. An audience that applauds but doesn't buy is telling you the proof layer is missing, not the promise."
+      }
+    },
+    "pod_urgency_pain": {
+      "name": "Someday Is A Plan",
+      "rounds": [
+        {
+          "round": 1,
+          "matches": []
+        },
+        {
+          "round": 2,
+          "matches": []
+        }
+      ],
+      "champion": {
+        "seed": 0,
+        "text": "The most dangerous line in your financial plan is the one that assumes your employer keeps paying you."
+      }
+    }
+  },
+  "final": {
+    "skipped": "dry-run"
+  }
+}

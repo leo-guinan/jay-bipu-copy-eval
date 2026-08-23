@@ -1,0 +1,28 @@
+{
+  "name": "jay-bipu-copy-eval",
+  "main": "src/index.js",
+  "compatibility_date": "2026-08-21",
+  "routes": [
+    { "pattern": "jay.buildinpublicuniversity.com", "custom_domain": true }
+  ],
+  "durable_objects": {
+    "bindings": [
+      { "name": "TRAFFIC", "class_name": "TrafficCounter" }
+    ]
+  },
+  "migrations": [
+    { "tag": "v1", "new_sqlite_classes": ["TrafficCounter"] }
+  ],
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS"
+  },
+  "vars": {
+    "OPENROUTER_MODEL": "deepseek/deepseek-v4-flash",
+    "BOOK_PRESALE_URL": "https://www.kickstarter.com/projects/jayyanginspires/work-with-the-best",
+    "SOURCE_TWEET_URL": "https://x.com/Jayyanginspires/status/2090589801074315339?s=20",
+    "FATHOM_SITE_ID": "AELNXPSE",
+    "ALERT_EMAIL_TO": "marvin@ideanexusventures.com",
+    "ALERT_EMAIL_FROM": "BIPU traffic alerts <alerts@buildinpublicuniversity.com>"
+  }
+}
