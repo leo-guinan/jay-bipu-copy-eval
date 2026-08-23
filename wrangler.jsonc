@@ -7,11 +7,15 @@
   ],
   "durable_objects": {
     "bindings": [
-      { "name": "TRAFFIC", "class_name": "TrafficCounter" }
+      { "name": "TRAFFIC", "class_name": "TrafficCounter" },
+      { "name": "TOURNAMENT", "class_name": "TournamentSession" },
+      { "name": "TOURNAMENT_JOB", "class_name": "TournamentJob" }
     ]
   },
   "migrations": [
-    { "tag": "v1", "new_sqlite_classes": ["TrafficCounter"] }
+    { "tag": "v1", "new_sqlite_classes": ["TrafficCounter"] },
+    { "tag": "v2", "new_sqlite_classes": ["TournamentSession"] },
+    { "tag": "v3", "new_sqlite_classes": ["TournamentJob"] }
   ],
   "assets": {
     "directory": "./public",

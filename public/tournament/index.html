@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A visible pain-first 6Ps content tournament: create pods, improve ideas until they pass, then battle the passers.">
+  <title>The 6Ps Content Tournament — BIPU</title>
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/tournament/tournament.css">
+  <script src="https://cdn.usefathom.com/script.js" data-site="AELNXPSE" defer></script>
+</head>
+<body>
+  <header class="nav wrap"><a class="brand" href="/">BIPU <span>×</span> Jay Yang</a><a class="presale-link" href="/tournament/">New tournament ↗</a></header>
+  <main class="wrap tournament-shell">
+    <section class="tournament-hero">
+      <p class="eyebrow">A visible content tournament · demo simulation</p>
+      <h1>Make the pain specific.<br><em>Then make the ideas earn the battle.</em></h1>
+      <p class="lede">Give the instrument a topic, audience, offer, or source context. It will create pain-themed pods, show bounded improvement, and let only simulated passers enter the versus round.</p>
+      <p class="demo-boundary"><strong>Bounded demo:</strong> 3 pods · 6 ideas · 2 improvement attempts per idea · 3 judges. Do not paste private material into a shareable run.</p>
+    </section>
+
+    <section class="tournament-input" id="setup">
+      <div class="tool-head"><div><p class="eyebrow">01 / Give it a battlefield</p><h2>What are we trying to say?</h2></div><span class="privacy">Provider stays server-side</span></div>
+      <label class="sr-only" for="context">Tournament context</label>
+      <textarea id="context" maxlength="4000" placeholder="Example: Operators deploying AI systems keep discovering that the account, domain, webhook, and configured behavior do not match. Audience: technical founders and small teams. Offer: a receipt-first deployment audit."></textarea>
+      <div class="tool-foot"><span id="context-count">0 / 4,000</span><button id="start" class="button">Create the pods <span>↗</span></button></div>
+      <p class="error" id="error" role="alert" hidden></p>
+    </section>
+
+    <section class="run-panel" id="run" hidden>
+      <div class="run-head"><div><p class="eyebrow" id="phase-label">02 / Building pods</p><h2 id="phase-title">The machine is thinking in pain themes.</h2></div><button id="share" class="button secondary">Copy share link ↗</button></div>
+      <div class="progress"><span id="progress-bar"></span></div>
+      <p class="run-note" id="run-note">The winner is not a market fact. It is a model-judged candidate that still needs contact with readers.</p>
+      <div id="pods" class="pods"></div>
+      <div id="battles" class="battles"></div>
+      <div id="winner" class="winner" hidden></div>
+    </section>
+  </main>
+  <footer class="footer wrap"><span>Build in Public University</span><span>Every signal gets an outcome.</span></footer>
+  <script src="/tournament/tournament.js"></script>
+</body>
+</html>
